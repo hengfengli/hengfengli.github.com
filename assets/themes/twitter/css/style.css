@@ -32,6 +32,14 @@ body {
   margin: -20px -20px 20px;
 }
 
+.index-page h1 {
+	color: #666;
+	font-family: 'Waiting for the Sunrise', serif;
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
 .topbar .btn {
   border: 0;
 }
@@ -68,4 +76,99 @@ body {
 	border:1px solid #4C964D;
 	color:#FFF;
 }
+
+
+/* Custom ======================================================== */
+
+body {
+	font: 14px/1.5 'Metrophobic','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Francois One','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+.post-meta { 
+	float: left;
+	width: 40px;
+	margin-top: 2px;
+	margin-left: -61px;
+}
+
+.post-meta p {
+	margin: 0px;
+}
+
+.post-meta .date {
+	color: #cdcdcd;
+	text-align: center;
+	line-height: 1.1em;
+	margin: 8px 0px 5px 0px;
+}
+
+.post-meta .date em {
+	font-style: normal;
+	font-size: 20px;
+	display: block;
+}
+
+.post-meta .date strong{
+	font-family:'Metrophobic','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+	font-weight:normal;
+	font-size:14px;
+	display:block;
+}
+
+.post-item {
+	margin-bottom: 100px;
+}
+
+.post-title {
+	position: relative;
+}
+
+.post-title a {
+	color: #000;
+	border-bottom: 2px solid transparent;
+}
+
+.post-title a:hover {
+	text-decoration: none;
+}
+
+.post-content{margin-top:35px;}
+.post-content p{text-align:justify;}
+.post-content img {display: block;margin-left:auto;margin-right:auto;border:1px solid #000;}
+
+.post-content a, .post-title-sub a{
+	color: #1193F6;
+	text-decoration: none;
+	border-bottom: 2px solid transparent;
 	
+	-webkit-transition-duration: 0.2s;
+	-webkit-transition-property: border-bottom;
+	-webkit-transition-timing-function: ease-in;
+	-moz-transition-duration: 0.2s;
+	-moz-transition-property: border-bottom;
+	-moz-transition-timing-function: ease-in;
+}
+
+.post-content a:hover {
+	text-decoration: none;
+	color: #1193F6;
+	border-bottom: 2px solid #E1EAFE;
+}
+
+
+
+.post-title-sub{color:#bbb;font-size:13px;position:absolute;bottom:-10px;left:0px;}
+.post-title-sub a{color:#bbb;}
+.post-title-sub a:hover{border-bottom:2px solid #F8F8F8 !important;}
+.post-title-sub .hash{color:#eee;font-style:normal;}
+
+
