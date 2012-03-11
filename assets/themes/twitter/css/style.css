@@ -97,7 +97,12 @@ h1 {
 	float: left;
 	width: 40px;
 	margin-top: 2px;
-	margin-left: -61px;
+	margin-left: -60px;
+
+	background-color: #000;
+	-webkit-border-radius: 6px 0px 0px 6px;
+    -moz-border-radius: 6px 0px 0px 6px;
+    border-radius: 6px 0px 0px 6px;
 }
 
 .post-meta p {
