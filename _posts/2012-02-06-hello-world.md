@@ -3,6 +3,7 @@ layout: post
 title: "Test Text at 24"
 category: 
 tags: [intro]
+published: false
 ---
 {% include JB/setup %}
 
