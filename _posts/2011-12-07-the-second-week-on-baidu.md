@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Second Week on Baidu"
-category: diary
+category: [diary]
 tags: [work-on-baidu]
 ---
 {% include JB/setup %}

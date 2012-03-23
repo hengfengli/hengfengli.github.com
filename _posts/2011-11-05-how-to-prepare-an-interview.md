@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Prepare an Interview"
-category: programming
+category: [programming]
 tags: [interview]
 ---
 {% include JB/setup %}

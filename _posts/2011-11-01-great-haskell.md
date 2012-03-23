@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Great Hakell"
-category: programming
+title: "Great Haskell"
+category: [programming]
 tags: [haskell]
 ---
 {% include JB/setup %}

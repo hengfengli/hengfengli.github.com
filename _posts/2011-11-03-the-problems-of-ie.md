@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Problems of IE"
-category: programming
+category: [programming]
 tags: [ie]
 ---
 {% include JB/setup %}
