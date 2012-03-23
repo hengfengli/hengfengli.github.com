@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great Hakell"
+title: "Great Haskell"
 category: programming
 tags: [haskell]
 ---
