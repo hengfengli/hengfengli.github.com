@@ -1,7 +1,11 @@
 ---
 layout: post
 title: "Great Haskell"
+<<<<<<< HEAD
 category: [programming]
+=======
+category: programming
+>>>>>>> 3d2abd91cb23246e0718a8c06199a17986a4505b
 tags: [haskell]
 ---
 {% include JB/setup %}
