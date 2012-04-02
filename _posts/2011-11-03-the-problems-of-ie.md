@@ -20,7 +20,7 @@ tags: [ie]
 
 今天在mac上装了parallel desktop，装了win7，不得不说，这个pd太牛逼了，居然能把win7嵌入在mac里一样，而不像我用过的vmware，开个窗口模拟界面。（它也提供了那种模式）
 
-<img src="http://server1.hengfengli.com/images/uploads/screen1.png" style="width: 640px;">
+![screen](http://farm8.staticflickr.com/7088/6888085806_c40c5dcb90.jpg)
 
 话回到面试那里，确实很多东西不懂，很多细节的问题根本没去考虑，还是缺乏经验，有些问题只有在真正的工作或实践中，才能碰到吧。
 如果真要做前端开发，IE的问题也是避无可避的，毕竟人有时候还是要对现实妥协的，不管你对它有多么的不满。
