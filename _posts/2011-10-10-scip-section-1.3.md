@@ -3,6 +3,7 @@ layout: post
 title: "SCIP Section 1.3"
 category: [sicp]
 tags: [sicp]
+published: false
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: post
 title: "有意思的话"
 category: [diary]
 tags: [some-words]
+published: false
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: post
 title: "毕业离别"
 category: [diary]
 tags: [graduate]
+published: false
 ---
 {% include JB/setup %}
 

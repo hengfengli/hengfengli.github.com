@@ -3,6 +3,7 @@ layout: post
 title: "新的开始。。。"
 category: [diary]
 tags: [Beihai]
+published: false
 ---
 {% include JB/setup %}
 

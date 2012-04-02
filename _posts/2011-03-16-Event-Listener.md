@@ -6,7 +6,6 @@ tags: [event-listener]
 ---
 {% include JB/setup %}
 
-<div>
 
 今天我想写一下“事件监听”这个概念。因为我一直都不太明白listener的用法，甚至在上次的作业中，我居然把listener写成了一个带有runnable的类，现在想想，真的挺可笑的。
 
@@ -45,5 +44,3 @@ for(SnakeListener l : listeners) { 		l.snakeMoved(Snake.this); 	}
 同样的道理，对于GamePanel的keyboard事件监听，只需要Controller实现keyListener，并用addKeyListener使得Controller成为GamePanel的监听者，这样当键盘事件发生时，就会触发Controller中相应的方法。
 
 事件源=&gt;监听接口=&gt;监听者相应的方法
-
-</div>

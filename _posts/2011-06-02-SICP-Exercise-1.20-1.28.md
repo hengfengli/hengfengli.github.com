@@ -3,6 +3,7 @@ layout: post
 title: "SICP Exercise 1.20-1.28"
 category: [sicp]
 tags: [sicp]
+published: false
 ---
 {% include JB/setup %}
 

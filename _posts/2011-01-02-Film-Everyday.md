@@ -20,10 +20,6 @@ Unstoppable. It is exciting when there is a racing between the trains. And it ma
 
 3 idiots. Although it's difficult to understand the India English, this is gonna be worth the time. We can learn much from the words in the film. We need to find out the things that are really passionate for us. And we cannot just be the person that your parents want you to be, but the one who you want to be. 
 
-![](https://lh3.googleusercontent.com/--6cstsfPA4M/TRUyDhXb-rI/AAAAAAAAAFw/zns2cBzOQuo/s640/IMG_0544.JPG)
-
-cherry. The cherry is very cheap here, just 5 dollars 1kg.
-
 ![](https://lh4.googleusercontent.com/-1PT2A5CsDO8/TRUyDozA5cI/AAAAAAAAAF0/NmuUv9kiNnc/s800/IMG_0555.JPG)
 
 The book store. After finishing the volunteer work, I got a voucher which is worth 25 dollars and I wanted to buy one books. This is a big book store in Melbourne, which website address is borders.com.au. However, the IT books are so expensive, so I bought a second-hand book from the website. The book is "Thinking in Java 3rd edition".
