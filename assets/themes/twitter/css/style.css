@@ -203,6 +203,25 @@ div.highlight pre {
   font-family: Consolas, Inconsolata, 'Bitstream Vera Sans Mono', Menlo, Monaco, 'Andale Mono', 'Courier New', monospace;
 } 
 
+.post-item:nth-last-child(1){
+	margin-bottom: 30px;
+}
+
+#post-pagination .prev {
+	float: left;
+}
+
+#post-pagination .next {
+	float: right;
+}
+
+#post-pagination .prev a, #post-pagination .next a{
+	border: none;
+	-webkit-border-radius: 4px;
+  	-moz-border-radius: 4px;
+  	border-radius: 4px;
+}
+
 .highlight  { background: #2B2B2B; color: #E6E1DC}
 .highlight .hll { background-color: #ffffcc }
 .highlight .c { color: #BC9458; font-style: italic} /* Comment */
