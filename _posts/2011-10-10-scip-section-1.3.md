@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "SCIP Section 1.3"
-category: 
-tags: []
+category: [sicp]
+tags: [sicp]
 ---
 {% include JB/setup %}
 

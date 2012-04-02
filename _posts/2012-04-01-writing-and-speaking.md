@@ -51,7 +51,7 @@ So are talks useless? They're certainly inferior to the written word as a source
 
 Talks are also good at motivating me to do things. It's probably no coincidence that so many famous speakers are described as motivational speakers. That may be what public speaking is really for. It's probably what it was originally for. The emotional reactions you can elicit with a talk can be a powerful force. I wish I could say that force was more often used for good than ill, but I'm not sure.
 
-讲话同样激励着我做一些事情。将这么多著名的演讲者作为鼓舞人心的演讲者，可能并不是巧合。因为这正是公开演讲的目的所在，这也可能是最初的目的。一个讲话让你引起的情绪反应，是一股强大的力量。我很希望，我可以说这股力量更多地被用在好的地方，而不是不好的地方，但是，我并不确定。
+讲话同样激励着我做一些事情。将这么多著名的演讲者作为鼓舞人心的演讲者，可能并不是巧合。因为这正是公开演讲的目的所在，这也可能是最初的目的。讲话让你引起的情绪反应，是一股强大的力量。我很希望，我可以说这股力量更多地被用在好的地方，而不是不好的地方，但是，我并不确定。
 
 ### Notes
 

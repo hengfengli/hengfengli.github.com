@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "新的开始。。。"
-category: 
-tags: []
+category: [diary]
+tags: [Beihai]
 ---
 {% include JB/setup %}
 
