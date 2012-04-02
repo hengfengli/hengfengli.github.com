@@ -50,17 +50,28 @@ Here's a sample "posts list".
 </div>
 
 <ul id="post-pagination" class="pagination">
-  {% if paginator.previous_page %}
+
+  {% if paginator.next_page %}
     <li class="prev">
-      {% if paginator.previous_page == 1 %}
-        <a href="/">&larr; Older</a>
-      {% else %}
-        <a href="/page{{paginator.previous_page}}">&larr; Older</a>
-      {% endif %}
+      <a href="/page{{paginator.next_page}}">&larr; Older</a>
     </li>
   {% else %}
     <li class="prev disabled">
       <a>&larr; Older</a>
+    </li>
+  {% endif %}
+
+  {% if paginator.previous_page %}
+    <li class="next">
+      {% if paginator.previous_page == 1 %}
+        <a href="/">Newer &rarr;</a>
+      {% else %}
+        <a href="/page{{paginator.previous_page}}">Newer &rarr;</a>
+      {% endif %}
+    </li>
+  {% else %}
+    <li class="next disabled">
+      <a>Newer &rarr;</a>
     </li>
   {% endif %}
 
@@ -72,15 +83,7 @@ Here's a sample "posts list".
     <a href="#">Newer &rarr;</a>
   </li> -->
 
-  {% if paginator.next_page %}
-    <li class="next">
-      <a href="/page{{paginator.next_page}}">Newer &rarr;</a>
-    </li>
-  {% else %}
-    <li class="next disabled">
-      <a>Newer &rarr;</a>
-    </li>
-  {% endif %}
+
 </ul>
 
 <!--
