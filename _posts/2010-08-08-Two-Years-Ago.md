@@ -3,7 +3,6 @@ layout: post
 title: "2年前的今天"
 category: [melb]
 tags: [2-years-ago]
-published: false
 ---
 {% include JB/setup %}
 

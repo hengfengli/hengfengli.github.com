@@ -3,7 +3,6 @@ layout: post
 title: "强者不一定就是胜者"
 category: [diary]
 tags: [world-cup]
-published: false
 ---
 {% include JB/setup %}
 

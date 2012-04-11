@@ -3,7 +3,6 @@ layout: post
 title: "天生具有的自卑感"
 category: [diary]
 tags: [feel-inferior]
-published: false
 ---
 {% include JB/setup %}
 

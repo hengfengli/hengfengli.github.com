@@ -3,7 +3,6 @@ layout: post
 title: "世事难料"
 category: [diary]
 tags: [movie]
-published: false
 ---
 {% include JB/setup %}
 

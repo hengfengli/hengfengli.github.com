@@ -3,7 +3,6 @@ layout: post
 title: "If you want to forget something, the best approch is..."
 category: [melb]
 tags: [diary]
-published: false
 ---
 {% include JB/setup %}
 

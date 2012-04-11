@@ -3,7 +3,6 @@ layout: post
 title: "只剩考试了"
 category: [melb]
 tags: [exam]
-published: false
 ---
 {% include JB/setup %}
 

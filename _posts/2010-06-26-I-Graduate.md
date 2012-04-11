@@ -3,7 +3,6 @@ layout: post
 title: "Commencement"
 category: [diary]
 tags: [commencement]
-published: false
 ---
 {% include JB/setup %}
 

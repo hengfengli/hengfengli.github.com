@@ -3,7 +3,6 @@ layout: post
 title: "找part-time job"
 category: [melb]
 tags: [interview]
-published: false
 ---
 {% include JB/setup %}
 

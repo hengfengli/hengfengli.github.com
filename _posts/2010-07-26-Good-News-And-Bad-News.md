@@ -3,7 +3,6 @@ layout: post
 title: "好消息，坏消息"
 category: [melb]
 tags: [good-news bad-news]
-published: false
 ---
 {% include JB/setup %}
 
