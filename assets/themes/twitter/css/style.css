@@ -201,7 +201,14 @@ div.highlight pre {
   overflow: auto;
   padding: 5px 10px;
   font-family: Consolas, Inconsolata, 'Bitstream Vera Sans Mono', Menlo, Monaco, 'Andale Mono', 'Courier New', monospace;
-} 
+}
+
+div.highlight pre code {
+	background-color: transparent;
+	color: white;
+	padding: 0px 0px;
+	font-family: Consolas, Inconsolata, 'Bitstream Vera Sans Mono', Menlo, Monaco, 'Andale Mono', 'Courier New', monospace;
+}
 
 .post-item:nth-last-child(1){
 	margin-bottom: 30px;
