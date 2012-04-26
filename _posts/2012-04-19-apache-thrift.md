@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Apache Thrift - 跨语言服务开发框架"
-category: 
-tags: []
+category: [computer] 
+tags: [thrift]
 ---
 {% include JB/setup %}
 
