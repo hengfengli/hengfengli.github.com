@@ -62,6 +62,8 @@ Personality
 Experience
 ----------
 
+*   Having a 3-month internship as a Web Front-end Engineer on Tieba Department of Baidu Company.
+
 *   Participating the IBM Master the Mainframe contest Australia 2010, completing all the three parts of the contest and learning how to use an IBM System z mainframe, WebSphere MQ, CICS transaction.
 
 *   Gainning the second prize of state reward in CUMCM on 2008 (China Undergraduate Mathematical Contest in Modeling) learning the statistics knowledge and the Matlab programming during the contest.
