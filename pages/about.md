@@ -22,8 +22,8 @@ When I was a child, I didn't like reading and writing. I, however, do really lov
 
 `Software I use:`
 
-*   OS: Mac OS X 10.7 Lion.
-*   Editor: Vim, Sublime Text 2, Textmate
+*   OS: Mac OS X 10.8 Mountain Lion.
+*   Editor: Vim, Sublime Text 2, Textmate, Aquamacs(I'm trying to learn Emacs.)
 
 `Programming language I learn:`
 

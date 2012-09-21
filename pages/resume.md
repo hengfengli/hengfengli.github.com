@@ -28,13 +28,14 @@ There is a [PDF version](/assets/uploads/cv_eng.pdf) for printing.
 Education
 ---------
 
-*    M.Eng. Distributed Computing, Melbourne University, 2010-Present.
+*    Ph.D Student in Engineering, Melbourne University, 2012-Present.
+*    M.Eng. Distributed Computing, Melbourne University, 2010-2012.
 *    B.Eng. Software Engineering, Beihai College of Beihang University, 2006.
 
 IT Skills
 ---------
 
-*   Familiar with C, Java/JavaEE, Scheme
+*   Familiar with C, Java, Python, JavaScript
 
 *   Knowledge of distributed systems, cluster and grid computing experience
 
@@ -66,6 +67,6 @@ Experience
 
 *   Participating the IBM Master the Mainframe contest Australia 2010, completing all the three parts of the contest and learning how to use an IBM System z mainframe, WebSphere MQ, CICS transaction.
 
-*   Gainning the second prize of state reward in CUMCM on 2008 (China Undergraduate Mathematical Contest in Modeling) learning the statistics knowledge and the Matlab programming during the contest.
+*   Getting the second prize of state reward in CUMCM on 2008 (China Undergraduate Mathematical Contest in Modeling) learning the statistics knowledge and the Matlab programming during the contest.
 
 [Hengfeng Li](/) &#183; Last modified: April 1, 2011
