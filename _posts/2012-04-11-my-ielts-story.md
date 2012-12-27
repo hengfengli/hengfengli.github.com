@@ -38,12 +38,13 @@ __大作文：__
 
 主体段：
 
-1.   词汇，十天的词汇+常用的同义替换词。十天的那120个词，我是经常默写的。288我看过1-2遍。
-2.   句式，主要也是十天的35+53的句式（我的十天是老的版本）。还有那些连接词，要经常用。我比较常用的2套就是，to begin with，furthermore，last和for one thing, for another.这个最好也固定一下比较好，我第一次考的时候，有时候就会犹豫在选词上。
-3.   思路，这个要多看历年真题，多总结，然后形成惯性思维就好了，我倒没有特别去记什么“裸奔法”和齐辙讲的方法，
-就是多想一下，其实也就那一些常用的观点。多看范文，也有帮助的，十天后面的高分段落不错，可以看看。
+词汇: 十天的词汇+常用的同义替换词。十天的那120个词，我是经常默写的。288我看过1-2遍。
 
-结尾：不要写的太烂。这句话挺万能的：Maybe, we should discuss this question more in the future so that a more telling/reasonable conclusion could be drawn。
+句式: 主要也是十天的35+53的句式（我的十天是老的版本）。还有那些连接词，要经常用。我比较常用的2套就是，to begin with，furthermore，last和for one thing, for another 这个最好也固定一下比较好，我第一次考的时候，有时候就会犹豫在选词上。
+
+思路: 这个要多看历年真题，多总结，然后形成惯性思维就好了，我倒没有特别去记什么“裸奔法”和齐辙讲的方法。
+
+结尾: 不要写的太烂。这句话挺万能的：Maybe, we should discuss this question more in the future so that a more telling/reasonable conclusion could be drawn。
 
 所以我写作的感受是，运气占一半，努力占一半。努力就是多写，我就是把www.3gbbs.com和慎小嶷的作文预测，全都自己写了开头，然后也思考了一下思路。
 
