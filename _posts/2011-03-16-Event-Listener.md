@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "问题0——Event Listener 的概念"
+title: "Event Listener 的概念"
 category: [problem]
 tags: [event-listener]
 ---
@@ -25,17 +25,27 @@ tags: [event-listener]
 
 首先，要在Snake中要创建一个Set来存储所有的Listener。
 
-private Set&lt;SnakeListener&gt; listeners = new HashSet&lt;SnakeListener&gt;();
+<div class="highlight"><pre>private Set&lt;SnakeListener&gt; listeners = new HashSet&lt;SnakeListener&gt;();</pre></div>
 
 然后，在Snake中要有一个addListener的方法，可以讲监听者加入到Set中。
 
-public void addSnakeListener(SnakeListener l){ 		if(l != null){ 			this.listeners.add(l); 		} 	}
+<div class="highlight"><pre>
+public void addSnakeListener(SnakeListener l){ 		
+	if(l != null) { 			
+		this.listeners.add(l); 		
+	} 	
+}
+</pre></div>
 
 在Snake移动之后，立即触发SnakeListener的事件
 
+<div class="highlight"><pre>
 move();
 
-for(SnakeListener l : listeners) { 		l.snakeMoved(Snake.this); 	}
+for(SnakeListener l : listeners) { 		
+	l.snakeMoved(Snake.this); 	
+}
+</pre></div>
 
 最后，Controller要实现SnakeListener的snakeMoved方法，当snake移动之后，触发的事件。Controller就可以触发GamePanel重新显示。
 

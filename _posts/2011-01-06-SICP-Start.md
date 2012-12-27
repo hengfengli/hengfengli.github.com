@@ -1,18 +1,19 @@
 ---
 layout: post
-title: "SICP的读书笔记（开始）"
+title: "Structure and Interpretation of Computer Programs"
 category: [sicp]
 tags: [sicp]
 ---
 {% include JB/setup %}
 
-我将开始阅读这本经典的编程教程《Structure and Interpretation of Computer Programs》。
+我将开始阅读这本经典的编程教程《Structure and Interpretation of Computer Programs》
 
-计划：
-1.阅读整本书，理解每个细节。
-2.将课后习题，全部完成。如果有困难的，将努力寻找解答，并从中学习。
-3.看MIT提供关于此课程的视频。（如果有时间的话）
-4.做这个课程的projects。（如果有时间的话）
+<!--
+1.  阅读整本书，理解每个细节
+2.  将课后习题，全部完成。如果有困难的，将努力寻找解答，并从中学习 
+3.  看MIT提供关于此课程的视频
+4.  做这个课程的projects
+-->
 
 我努力在回家前，将前三章看完。我使用的开发环境是PLT Scheme，Scheme是Lisp的一门方言。Lisp是第二古老的编程语言（第一是Fortain）。它可以说是，最古老的declarative programming，声明式编程。
 

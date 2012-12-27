@@ -6,7 +6,7 @@ tags: [cook-food]
 ---
 {% include JB/setup %}
 
-![](https://lh5.googleusercontent.com/-24goO_8gFbg/TKHRVJTjDjI/AAAAAAAAAC0/rITJlukT4ws/s800/28092010179.jpg)
+![](https://lh5.googleusercontent.com/-24goO_8gFbg/TKHRVJTjDjI/AAAAAAAAAC0/rITJlukT4ws/s400/28092010179.jpg)
 
 今天吃了烤鸡翅哦，很好吃。。。就是有点咸。。。都怪我，鸡翅腌的太久了。。。
 

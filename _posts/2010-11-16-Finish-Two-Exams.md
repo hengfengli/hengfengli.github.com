@@ -18,17 +18,17 @@ tags: [exam]
 
 发几张图上来。
 
-![](https://lh6.googleusercontent.com/-Pe3ZPEFOuak/TN0PpuYez8I/AAAAAAAAAD8/wASBAGCNy6I/s800/23102010200.jpg)
+![](https://lh6.googleusercontent.com/-Pe3ZPEFOuak/TN0PpuYez8I/AAAAAAAAAD8/wASBAGCNy6I/s400/23102010200.jpg)
 
 这个巧克力超级好吃。。。里面有果仁和水果。。。每次等到降价的时候去买的，2刀一块。。
 
-![](https://lh3.googleusercontent.com/-CAia48v481o/TN0Po7lC_mI/AAAAAAAAAD0/BcLhVWpoaak/s800/02102010188.jpg)
+![](https://lh3.googleusercontent.com/-CAia48v481o/TN0Po7lC_mI/AAAAAAAAAD0/BcLhVWpoaak/s400/02102010188.jpg)
 
-![](https://lh3.googleusercontent.com/-IRHC45Ov8s8/TN0PpPGxhlI/AAAAAAAAAD4/gu4s-LAlRqc/s800/02102010189.jpg)
+![](https://lh3.googleusercontent.com/-IRHC45Ov8s8/TN0PpPGxhlI/AAAAAAAAAD4/gu4s-LAlRqc/s400/02102010189.jpg)
 
 这两张，是在一个咖啡店门口拍的，看看有哪些食物。。。
 
-![](https://lh5.googleusercontent.com/-fz1TmcFyyEo/TN0Ppo-hgYI/AAAAAAAAAEA/RwHe2HkTouU/s800/17102010196.jpg)
+![](https://lh5.googleusercontent.com/-fz1TmcFyyEo/TN0Ppo-hgYI/AAAAAAAAAEA/RwHe2HkTouU/s400/17102010196.jpg)
 
 这个是全部自己弄的，胡萝卜炒鸡，还挺香的。。。最近，吃培根和火腿肠有点多，这样不太好。。。
 

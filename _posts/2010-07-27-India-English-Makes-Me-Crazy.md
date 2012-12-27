@@ -20,6 +20,6 @@ tags: [india-english]
 
 我不敢多拍，因为我签的E71，手机拍照声音不能消掉，据说是国外为了防止偷拍。
 
-![](https://lh5.googleusercontent.com/-T7WNIxWUpu8/T3l0tIoXnnI/AAAAAAAAAPE/KbodxRe_Pmk/s800/27072010038.jpg)
+![](https://lh5.googleusercontent.com/-T7WNIxWUpu8/T3l0tIoXnnI/AAAAAAAAAPE/KbodxRe_Pmk/s400/27072010038.jpg)
 
 你们可以看到书架的尽头吗？这只是很少很少的一部分。。。
