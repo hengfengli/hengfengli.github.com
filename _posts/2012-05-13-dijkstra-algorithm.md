@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Dijkstra Algorithm"
-category: [algorithm]
+categories: [algorithm]
 tags: [dijkstra]
 ---
 {% include JB/setup %}

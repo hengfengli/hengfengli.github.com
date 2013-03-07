@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "design pattern。。。Observer and State"
-category: [melb]
+categories: [melb]
 tags: [design-pattern]
 ---
 {% include JB/setup %}

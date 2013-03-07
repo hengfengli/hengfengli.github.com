@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "墨尔本的China Town"
-category: [melb]
+categories: [melb]
 tags: [china-town my-life]
 ---
 {% include JB/setup %}

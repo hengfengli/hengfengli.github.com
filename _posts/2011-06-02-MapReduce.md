@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "MapReduce编程模型"
-category: [problem]
+categories: [problem]
 tags: [mapreduce]
 ---
 {% include JB/setup %}

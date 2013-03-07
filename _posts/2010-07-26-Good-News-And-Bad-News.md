@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "好消息，坏消息"
-category: [melb]
+categories: [melb]
 tags: [good-news bad-news]
 ---
 {% include JB/setup %}

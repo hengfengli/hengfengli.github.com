@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "HashMap的实现原理"
-category: 
+categories: 
 tags: []
 published: false
 ---

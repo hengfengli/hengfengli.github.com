@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "面试问题1-百度"
-category: [baidu]
+categories: [baidu]
 tags: [interview]
 published: false
 ---

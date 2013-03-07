@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "新的开始。。。"
-category: [diary]
+categories: [diary]
 tags: [Beihai]
 ---
 {% include JB/setup %}

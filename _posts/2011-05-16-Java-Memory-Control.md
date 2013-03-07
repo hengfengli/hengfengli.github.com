@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "问题7——Java内存控制"
-category: 
+categories: 
 tags: []
 published: false
 ---

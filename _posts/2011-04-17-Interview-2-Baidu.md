@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "面试问题2-百度"
-category: 
+categories: 
 tags: []
 published: false
 ---

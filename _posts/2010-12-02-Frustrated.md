@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "表示很受打击。。。"
-category: [melb]
+categories: [melb]
 tags: [frustrated]
 ---
 {% include JB/setup %}

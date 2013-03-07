@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "八月的尾巴"
-category: [melb]
+categories: [melb]
 tags: [august, phd]
 ---
 {% include JB/setup %}

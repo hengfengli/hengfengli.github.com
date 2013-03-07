@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "My IELTS Story - 我的雅思经历"
-category: [experience]
+categories: [experience]
 tags: [ielts]
 ---
 {% include JB/setup %}

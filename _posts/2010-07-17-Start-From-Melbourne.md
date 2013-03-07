@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "刚到墨尔本"
-category: [melb]
+categories: [melb]
 tags: [start]
 ---
 {% include JB/setup %}

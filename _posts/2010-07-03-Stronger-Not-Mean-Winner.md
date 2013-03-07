@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "强者不一定就是胜者"
-category: [diary]
+categories: [diary]
 tags: [world-cup]
 ---
 {% include JB/setup %}

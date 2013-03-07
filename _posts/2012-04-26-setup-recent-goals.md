@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Setup Some Recent Goals - 设立一些近期的目标"
-category: [goals]
+categories: [goals]
 tags: [recent-goals]
 ---
 {% include JB/setup %}

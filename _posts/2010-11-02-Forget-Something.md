@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "If you want to forget something, the best approch is..."
-category: [melb]
+categories: [melb]
 tags: [diary]
 published: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "重新开始写博客"
-category: 
+categories: 
 tags: []
 published: false
 ---

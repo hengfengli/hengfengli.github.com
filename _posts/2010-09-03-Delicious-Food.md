@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一顿饱饭啊。。。"
-category: [melb]
+categories: [melb]
 tags: [delicious-food]
 ---
 {% include JB/setup %}

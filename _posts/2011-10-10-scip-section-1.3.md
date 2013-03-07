@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SCIP Section 1.3"
-category: [sicp]
+categories: [sicp]
 tags: [sicp]
 published: false
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Watching several movies"
-category: [melb]
+categories: [melb]
 tags: [film]
 ---
 {% include JB/setup %}

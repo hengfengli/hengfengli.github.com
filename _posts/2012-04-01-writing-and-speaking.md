@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[翻译] Writing and Speaking"
-category: [translation]
+categories: [translation]
 tags: [paul-graham]
 ---
 {% include JB/setup %}

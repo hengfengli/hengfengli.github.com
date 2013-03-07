@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "有意思的话"
-category: [diary]
+categories: [diary]
 tags: [some-words]
 ---
 {% include JB/setup %}

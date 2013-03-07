@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Traffic Simulator"
-category: [computer]
+categories: [computer]
 tags: [traffic]
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Commencement"
-category: [diary]
+categories: [diary]
 tags: [commencement]
 ---
 {% include JB/setup %}

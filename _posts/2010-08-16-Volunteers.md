@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Volunteers。。。"
-category: [melb]
+categories: [melb]
 tags: [volunteers]
 ---
 {% include JB/setup %}

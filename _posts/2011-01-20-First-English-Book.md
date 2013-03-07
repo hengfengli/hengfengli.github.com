@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "第一本英文原版书"
-category: [sicp]
+categories: [sicp]
 tags: [sicp]
 ---
 {% include JB/setup %}

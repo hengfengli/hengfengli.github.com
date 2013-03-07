@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SICP Section 1.2"
-category: [sicp]
+categories: [sicp]
 tags: [sicp]
 published: false
 ---

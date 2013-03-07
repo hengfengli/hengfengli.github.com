@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "心情又乱了。。。"
-category: [melb]
+categories: [melb]
 tags: [messy-mood]
 published: false
 ---

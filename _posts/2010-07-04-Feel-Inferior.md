@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "天生具有的自卑感"
-category: [diary]
+categories: [diary]
 tags: [feel-inferior]
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "印度口音，让我疯了"
-category: [melb]
+categories: [melb]
 tags: [india-english]
 ---
 {% include JB/setup %}

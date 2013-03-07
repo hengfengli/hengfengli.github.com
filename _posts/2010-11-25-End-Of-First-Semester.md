@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "即将结束第一个学期"
-category: [melb]
+categories: [melb]
 tags: [end-of-first-semester]
 ---
 {% include JB/setup %}

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "只剩考试了"
-category: [melb]
+categories: [melb]
 tags: [exam]
 ---
 {% include JB/setup %}

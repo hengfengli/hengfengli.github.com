@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "monty hall problem"
-category: 
+categories: 
 tags: []
 published: false
 ---

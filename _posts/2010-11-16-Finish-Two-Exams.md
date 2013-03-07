@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "考完2门了。。。"
-category: [melb]
+categories: [melb]
 tags: [exam]
 ---
 {% include JB/setup %}

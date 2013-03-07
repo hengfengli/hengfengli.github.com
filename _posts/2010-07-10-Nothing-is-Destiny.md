@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "世事难料"
-category: [diary]
+categories: [diary]
 tags: [movie]
 ---
 {% include JB/setup %}

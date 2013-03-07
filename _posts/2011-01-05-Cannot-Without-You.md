@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "不能没有你"
-category: [melb]
+categories: [melb]
 tags: [can-not-without-you]
 ---
 {% include JB/setup %}

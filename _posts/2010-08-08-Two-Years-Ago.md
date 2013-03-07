@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2年前的今天"
-category: [melb]
+categories: [melb]
 tags: [2-years-ago]
 ---
 {% include JB/setup %}

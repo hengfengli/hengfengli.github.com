@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Structure and Interpretation of Computer Programs"
-category: [sicp]
+categories: [sicp]
 tags: [sicp]
 ---
 {% include JB/setup %}

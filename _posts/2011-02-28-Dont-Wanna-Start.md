@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "不想开始的一天  "
-category: [melb]
+categories: [melb]
 tags: [dont-wanna-start]
 ---
 {% include JB/setup %}

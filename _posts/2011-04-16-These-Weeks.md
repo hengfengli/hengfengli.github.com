@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "这几个星期"
-category: [melb]
+categories: [melb]
 tags: [these-weeks]
 ---
 {% include JB/setup %}

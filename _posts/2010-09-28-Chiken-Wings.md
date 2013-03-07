@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "好吃的烤鸡翅"
-category: [melb]
+categories: [melb]
 tags: [cook-food]
 ---
 {% include JB/setup %}

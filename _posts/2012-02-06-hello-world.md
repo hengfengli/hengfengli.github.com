@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Test Text at 24"
-category: 
+categories: 
 tags: [intro]
 published: false
 ---

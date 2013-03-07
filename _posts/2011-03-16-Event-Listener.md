@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Event Listener 的概念"
-category: [problem]
+categories: [problem]
 tags: [event-listener]
 ---
 {% include JB/setup %}

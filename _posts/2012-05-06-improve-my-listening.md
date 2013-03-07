@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Improve My Listening-每天听力完成情况"
-category: [study] 
+categories: [study] 
 tags: [listening]
 published: false
 ---

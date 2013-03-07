@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "问题3——在什么情况下，Java的运行时间会快于C/C++？"
-category: [problem]
+categories: [problem]
 tags: [exectime]
 published: false
 ---

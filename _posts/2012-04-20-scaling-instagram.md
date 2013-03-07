@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Scaling Instagram - 易扩展的Instagram"
-category: [computer]
+categories: [computer]
 tags: [instagram]
 ---
 {% include JB/setup %}

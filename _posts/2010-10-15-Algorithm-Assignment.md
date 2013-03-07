@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "完成一个算法作业"
-category: [melb]
+categories: [melb]
 tags: [assignment]
 ---
 {% include JB/setup %}

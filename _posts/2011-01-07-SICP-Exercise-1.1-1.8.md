@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "SICP Exercise 1.1-1.8"
-category: sicp
+categories: sicp
 tags: [sicp]
 published: false
 ---

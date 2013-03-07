@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "要解决的问题"
-category: 
+categories: 
 tags: []
 published: false
 ---
