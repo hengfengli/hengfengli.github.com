@@ -7,21 +7,12 @@ title: "Resume"
 Hengfeng Li
 ===========
 
-There is a [PDF version](/assets/uploads/cv_eng.pdf) for printing.
+<!--There is a [PDF version](/assets/uploads/cv_eng.pdf) for printing.-->
 
 <div style="width: 100%; float: left; margin-bottom: 1.5em;">
 
-  <div style="float: left; width: 50%">
-  	6/83 Manninham Street<br />
-    Parkville VIC 3052<br />
-    Australia
-  </div>
-
-  <div style="float: left; width: 50%">
-    Phone: +61-4-2257 1106<br />
-    Email: <img src="/assets/images/my-email.png" style="display:inline-block;"><br />
+    Email: hi at hengfengli.com<br><!--<img src="/assets/images/my-email.png" style="display:inline-block;"><br />-->
     Homepage: <a href="/">http://hengfengli.com/</a>
-  </div>
 
 </div>
 

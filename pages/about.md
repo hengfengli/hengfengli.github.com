@@ -6,13 +6,9 @@ title: "About"
 
 ## My Introduction
 
-`Name:` Hengfeng
+`Name:` Hengfeng Li
 
 `Location:` Melbourne, Australia 
-
-Crazy about the programming, espeically when I enter a state of full involvement which is called "Flow" in pyschology. I used Windows and Ubuntu Linux before, but now I am a big fan of Mac's stuff.
-
-When I was a child, I didn't like reading and writing. I, however, do really love reading and writing and I guess my major has an important impact on me.
 
 `Fields I'm interested in:`
 
@@ -39,14 +35,4 @@ When I was a child, I didn't like reading and writing. I, however, do really lov
 
 `Contact:`
 
-*   Email & Gtalk：<img src="/assets/images/my-email.png" style="display:inline-block;">
-
-`My resume:`
-
-*   [English Resume](/assets/uploads/cv_eng.pdf)
-
-`Words always encourages me:`
-
-> “life breaks us all but in the end we are stronger in the broken places.” 
-> 
-> ― Ernest Hemingway
+*   Email & Gtalk： hi at hengfengli.com
