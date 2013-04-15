@@ -18,16 +18,16 @@ title: "About"
 
 `Software I use:`
 
-*   OS: Mac OS X 10.8 Mountain Lion.
-*   Editor: Vim, Sublime Text 2, Textmate, Aquamacs(I'm trying to learn Emacs.)
+*   OS: Mac OS X 
+*   Editor: Vim, Textmate, Sublime Text 2
 
 `Programming language I learn:`
 
-*   Good: C | Java | JavaScript | LaTeX
-*   Middle：Ruby on Rails | Scheme | Haskell | C Sharp | jQuery | Python
+*   Good: C | Java | JavaScript 
+*   Middle：Ruby on Rails | Scheme | Haskell | C Sharp | jQuery | Python | LaTeX 
 *   Newbie：Scala | CoffeeScript | Node.js | Ajax
 
-(BTW, comparing with Ruby and Haskell, even JavaScript, I find Java is so complicated and boring.)
+(BTW, I really like Scheme and Haskell, which are quite elegant.)
 
 `My GitHub:`
 
@@ -35,4 +35,4 @@ title: "About"
 
 `Contact:`
 
-*   Email & Gtalk： hi at hengfengli.com
+*   Email & Gtalk： hengf.li at gmail.com
