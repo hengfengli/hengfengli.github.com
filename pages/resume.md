@@ -11,7 +11,7 @@ Hengfeng Li
 
 <div style="width: 100%; float: left; margin-bottom: 1.5em;">
 
-    Email: hi at hengfengli.com<br><!--<img src="/assets/images/my-email.png" style="display:inline-block;"><br />-->
+    Email: hengf.li at gmail.com<br><!--<img src="/assets/images/my-email.png" style="display:inline-block;"><br />-->
     Homepage: <a href="/">http://hengfengli.com/</a>
 
 </div>
