@@ -4,7 +4,8 @@ I used the Jekyll-Bootstrap to establish my own blog.
 
 ## Version
 
-0.0.1 - initial version on 11 March 2012
+0.2 - update on April 16, 2013
+0.1 - initial version on March 11, 2012
 
 ## License
 
