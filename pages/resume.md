@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: custom
 title: "Resume"
 ---
 {% include JB/setup %}

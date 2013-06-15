@@ -1,6 +1,6 @@
 ---
-layout: page
-title: "About"
+layout: custom
+title: "About me"
 ---
 {% include JB/setup %}
 
@@ -23,11 +23,9 @@ title: "About"
 
 `Programming language I learn:`
 
-*   Good: C | Java | JavaScript 
-*   Middle：Ruby on Rails | Scheme | Haskell | C Sharp | jQuery | Python | LaTeX 
-*   Newbie：Scala | CoffeeScript | Node.js | Ajax
-
-(BTW, I really like Scheme and Haskell, which are quite elegant.)
+*   Good: C | Java | JavaScript | Scheme
+*   Middle：jQuery | Python | Haskell | Ruby on Rails
+*   Newbie：Scala  | CoffeeScript | Node.js | Ajax 
 
 `My GitHub:`
 

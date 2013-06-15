@@ -28,8 +28,9 @@
   </head>
 
   <body>
-
-    <div class="topbar">
+	
+	
+    <!-- <div class="topbar">
       <div class="fill">
         <div class="container">
           <a class="brand" href="{{ HOME_PATH }}">{{ site.title }}</a>
@@ -40,9 +41,21 @@
           </ul>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="container">
+		<header id="branding">
+			<hgroup>
+				<h1 id="site-title"><span><a href="{{ HOME_PATH }}" title="{{ site.title }}" rel="home">{{ site.title }}</a></span></h1>
+				<h2 id="site-description">Carpe Diem</h2>
+			</hgroup>
+
+	        <ul id="access">
+	          {% assign pages_list = site.pages %}
+	          {% assign group = 'navigation' %}
+	          {% include JB/pages_list %}
+	        </ul>
+		</header>
 
       <div class="content">
         {{ content }}
@@ -51,9 +64,11 @@
       <footer>        
 		<p>The website is hosted on my <a href="https://github.com/HengfengLi/hengfengli.github.com" target="_blank" title="hengfengli.github.com">GitHub Page</a>
         </p>
-        <p>&copy; {{ site.author.name }} 2012 
-          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        <p>&copy; {{ site.author.name }} 2013 
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>,
+          <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>,
+		  <a href="http://theme.wordpress.com/themes/hum/" target="_blank">Hum</a> 
+		  by <a href="http://darylkoop.com/" target="_blank">Daryl Koopersmith</a>.
         </p>
       </footer>
 
@@ -61,4 +76,16 @@
 
     {% include JB/analytics %}
   </body>
+  <script type="text/javascript" src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'></script>
+
+  <script type="text/javascript">
+  var url = window.location;
+  // Will only work if string in href matches with location
+  $('#access a[href="'+ url +'"]').parent().addClass('active');
+
+  // Will also work for relative and absolute hrefs
+  $('#access a').filter(function() {
+      return this.href == url;
+  }).parent().addClass('active');
+  </script>
 </html>

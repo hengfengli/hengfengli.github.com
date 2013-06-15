@@ -1,28 +1,258 @@
 /* Override some defaults */
 html, body {
-  background-color: #eee;
+	background-color: #eee;
 }
 body {
-  padding-top: 40px; /* 40px to make the container go all the way to the bottom of the topbar */
+	padding: 0 30px;
 }
 .container > footer p {
   text-align: center; /* center align it with the container */
 }
 .container {
-  width: 820px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+  	max-width: 960px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+	margin: 60px auto;
 }
+
+#branding {
+	position: fixed;
+	width: 180px;
+	margin-right: 40px;
+	
+	border: 0;
+	text-align: right;
+	top: 0;
+	bottom: 0;
+	padding-top: 5em;
+}
+
+/* =========================================================================
+ *   COLOR ANIMATIONS
+ * ========================================================================= */
+
+#site-title a,
+#site-description,
+#access a,
+.post-title-main a {
+	-webkit-transition: font-size 200ms, color 400ms;
+	-moz-transition:    font-size 200ms, color 400ms;
+	-ms-transition:     font-size 200ms, color 400ms;
+	-o-transition:      font-size 200ms, color 400ms;
+	transition:         font-size 200ms, color 400ms;
+}
+
+.container #branding > a {
+	-webkit-transition: opacity 200ms;
+	-moz-transition:    opacity 200ms;
+	-ms-transition:     opacity 200ms;
+	-o-transition:      opacity 200ms;
+	transition:         opacity 200ms;
+}
+
+/* =========================================================================
+ *   HEADER
+ * ========================================================================= */
+
+#branding hgroup {
+	margin: 0;
+}
+
+.container #branding > a {
+	/*padding-top: 20px;*/
+	padding-bottom: 20px;
+	display: block;
+}
+
+.container #branding > a:hover {
+	opacity: 0.8;
+}
+
+#branding img {
+	width: auto;
+	max-height: 200px;
+	max-width: 100%;
+}
+
+#site-title {
+	width: auto;
+	margin: 0;
+	padding: 10px 0;
+	float: right;
+}
+
+#site-title a {
+	font-size: 2.4em;
+	line-height: 1em;
+	color: rgba( 0, 0, 0, 0.2 );
+	font-weight: bold;
+	margin-right: -4px;
+	text-align: right;
+	text-decoration: none;
+}
+
+.container #branding #site-title a:hover,
+.container #branding #site-title a:focus {
+	color: #1982d1;
+}
+
+#site-description {
+	width: auto;
+	margin: 0 0 15px;
+	color: #aaa;
+}
+
+#branding {
+	border: 0;
+	text-align: right;
+	top: 0;
+	bottom: 0;
+	padding-top: 5em;
+}
+
+
+
+
+
+
+
+
+/* =========================================================================
+ *   HOVERED BRANDING
+ * ========================================================================= */
+
+#branding:hover #site-title a {
+	color: rgba( 0, 0, 0, 0.4 );
+}
+
+#branding:hover #access a {
+	color: #555;
+}
+
+#branding:hover #access .current_page_item > a,
+#branding:hover #access .current_page_ancestor > a {
+	color: #222;
+}
+
+#branding:hover #site-description {
+	color: #7A7A7A;
+}
+
+#branding:hover #searchform {
+	opacity: 1;
+}
+
+
+/* =========================================================================
+ *   MENU
+ * ========================================================================= */
+
+#access {
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-top: 10px;
+	background: transparent;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	list-style: none;
+}
+
+#access .active {
+	font-weight:bold;
+}
+
+.container #branding #access div {
+	margin: 0;
+	padding: 0;
+}
+#access ul {
+	margin: 0;
+}
+
+#access li {
+	float: none;
+}
+
+#access a {
+	display: inline-block;
+	color: #aaa;
+	padding: 0;
+	line-height: 2.6em;
+	text-decoration: none;
+}
+
+#access li:hover > a,
+#access a:focus {
+	background: transparent;
+}
+
+.container #branding #access a:hover,
+.container #branding #access a:focus,
+.container #branding #access .active > a:hover,
+.container #branding #access .active > a:focus{
+	color: #1982d1;
+}
+
+#access ul ul {
+	top: 2.6em;
+	left: 100%;
+	margin-left: -40px;
+	-webkit-box-shadow: 3px 3px 6px rgba( 0, 0, 0, 0.2 );
+	-moz-box-shadow:    3px 3px 6px rgba( 0, 0, 0, 0.2 );
+	box-shadow:         3px 3px 6px rgba( 0, 0, 0, 0.2 );
+}
+
+#access ul ul:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: -6px;
+	left: 1em;
+
+	border-width: 0 6px 6px 6px;
+	border-color: #f9f9f9 transparent;
+	border-style: solid;
+}
+
+#access ul ul :hover > a {
+	background: #f9f9f9;
+}
+
+#access li li {
+	margin: 0;
+	text-align: left;
+}
+
+#access li li:last-child a {
+	border-bottom: 0;
+}
+
+#access ul ul ul {
+	margin-left: 6px;
+}
+#access ul ul ul:after {
+	top: 1em;
+	left: -6px;
+	border-color: transparent #f9f9f9;
+	border-width: 6px 6px 6px 0;
+}
+
+
 
 /* The white background content wrapper */
 .content {
-  background-color: #fff;
-  padding: 20px;
-  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+	margin-left: 220px;
+	clear: both;
+	witdh: auto;
+  background-color: transparent;
+/*  padding: 20px;
+  margin: 0 -20px; 
+*/
   -webkit-border-radius: 0 0 6px 6px;
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+/*  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
      -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
           box-shadow: 0 1px 2px rgba(0,0,0,.15);
+*/
 }
 
 /* Page header tweaks */
@@ -109,7 +339,7 @@ h1 {
 	margin: 0px;
 }
 
-.post-meta .date {
+/*.post-meta .date {
 	color: #cdcdcd;
 	text-align: center;
 	line-height: 1.1em;
@@ -127,13 +357,20 @@ h1 {
 	font-weight:normal;
 	font-size:14px;
 	display:block;
-}
+}*/
 
 .post-item {
-	margin-bottom: 100px;
+	background: white;
+	-webkit-box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	-moz-box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	box-shadow: 0 0 10px rgba( 0, 0, 0, 0.1 );
+	-webkit-border-radius: 3px;
+
+	margin-bottom: 24px;
 }
 
 .post-title {
+	padding:24px 56px 0 56px;
 	position: relative;
 }
 
@@ -143,10 +380,13 @@ h1 {
 }
 
 .post-title a:hover {
+	color: #1982d1;
 	text-decoration: none;
 }
 
-.post-content{margin-top:35px;}
+.post-content{
+	padding:20px 56px 20px 56px;	
+}
 .post-content p{text-align:justify;}
 .post-content img {display: block;margin-left:auto;margin-right:auto;border:1px solid #000;}
 
@@ -169,10 +409,18 @@ h1 {
 	border-bottom: 2px solid #E1EAFE;
 }
 
-.post-title-sub{color:#bbb;font-size:13px;position:absolute;bottom:-10px;left:0px;}
+.post-title-sub{
+	color:#666;
+	font-size:13px;
+	position:absolute;
+	bottom:-22px;
+	left:56px;
+	font:13px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .post-title-sub a{color:#bbb;}
 .post-title-sub a:hover{border-bottom:2px solid #F8F8F8 !important;}
 .post-title-sub .hash{color:#eee;font-style:normal;}
+.post-title-sub .date{color:#373737;}
 
 
 /* Code Beautifer */
