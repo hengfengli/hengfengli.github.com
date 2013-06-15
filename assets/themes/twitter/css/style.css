@@ -235,7 +235,11 @@ body {
 	border-width: 6px 6px 6px 0;
 }
 
-
+#branding-img {
+    -webkit-border-radius: 20px;
+       -moz-border-radius: 20px;
+            border-radius: 20px;
+}
 
 /* The white background content wrapper */
 .content {
