@@ -314,13 +314,14 @@ body {
 
 /* Custom ======================================================== */
 
+
 body {
-	font: 14px/1.5 'Metrophobic','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+	font: 14px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Francois One','Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
-	font-weight: normal;
+	font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
 }
 
 h1 {

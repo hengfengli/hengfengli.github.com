@@ -1,8 +1,10 @@
-# My Own Blog
+# Personal Homepage
 
-I used the Jekyll-Bootstrap to establish my own blog.
+I use the Jekyll-Bootstrap to establish my own blog.
 
 ## Version
+
+1.0 - create a new theme on June 17, 2013
 
 0.2 - update on April 16, 2013
 
