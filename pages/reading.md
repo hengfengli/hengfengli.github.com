@@ -67,3 +67,4 @@ title: "Reading List"
 21.  《我的奋斗》－罗永浩
 22.  《数学之美》－吴军
 23.  The Elements of Style - William Strunk Jr./E.B. White
+24.  《拆掉思维里的墙》－古典, **completed in June 25, 2013**
