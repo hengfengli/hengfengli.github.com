@@ -14,6 +14,7 @@ title: "Reading List"
 *   One, Two, Three...Infinity: Facts and Speculations of Science - George Gamow
 *   Steve Jobs - Walter Isaacson
 *   Structure and Interpretation of Computer Programs 2nd Edition - Harold Abelson/Gerald Jay Sussman
+*   Learning From Data - A Short Course - Abu-Mostafa/Magdon-Ismail/Lin
 
 ### I have read these books:
 
