@@ -26,6 +26,7 @@ Education
 Work Experience
 ----------
 
+*   Lab demonstrator - GEOM90042 Spatial Information Programming (2013 Semester 1)
 *   3-month internship as a Web front-end engineer on Tieba department of Baidu company.
 
 Honors & Awards
