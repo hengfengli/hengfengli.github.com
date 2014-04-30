@@ -1,3 +1,5 @@
-name: Hengfeng Li
+name: Hengfeng's Blog
+description: Occasionally write something about myself. 
+url: http://blog.hengfengli.com
 markdown: rdiscount
 pygments: true
