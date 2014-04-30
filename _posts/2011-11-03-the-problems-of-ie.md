@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Problems of IE"
+title: "面试和IE的问题"
 categories: [programming]
 tags: [ie]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to Prepare an Interview"
+title: "如何准备面试"
 categories: [programming]
 tags: [interview]
 ---

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My IELTS Story - 我的雅思经历"
+title: "我的雅思经历"
 categories: [experience]
 tags: [ielts]
 ---

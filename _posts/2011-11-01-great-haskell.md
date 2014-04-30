@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Great Haskell"
+title: "学习Haskell"
 categories: [programming]
 tags: [haskell]
 ---

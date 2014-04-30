@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Commencement"
+title: "毕业典礼"
 categories: [diary]
 tags: [commencement]
 ---
