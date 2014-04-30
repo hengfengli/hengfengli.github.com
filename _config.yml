@@ -1,5 +1,5 @@
 name: Hengfeng's Blog
 description: Occasionally write something about myself. 
-url: http://blog.hengfengli.com
+url: http://hengfengli.github.io/
 markdown: rdiscount
 pygments: true
