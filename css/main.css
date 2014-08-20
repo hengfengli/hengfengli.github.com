@@ -14,8 +14,10 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  /* font: 13.34px Helvetica, Arial, sans-serif; */
+  /* font-size: small; */
+  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -25,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
+a         { color: #00a; text-decoration: none; }
 a:hover   { color: #000; }
 a:visited { color: #a0a; }
 
