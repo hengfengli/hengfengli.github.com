@@ -46,9 +46,7 @@ Our {SeePark} mainly helps drivers find their cars and also reminder them to ren
 to avoid the fine when they concentrate on some work.
 
 1.   **Find where is your car.**
-
 2.   **Reminder when you should renew it.**
-
 3.   **Share parking information with the community.**
 
 There are some difficult issues, e.g., identifying the parking place inside a building or indoor place detection. 
