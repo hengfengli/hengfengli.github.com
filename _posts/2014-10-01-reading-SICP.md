@@ -3,6 +3,7 @@ layout: post
 title:  "Reading Plan for SICP"
 date:   2014-10-01 11:32:00
 categories: reading
+published: false
 ---
 
 说来惭愧，很早很早就想把这本书《Structure and Interpretation of Computer Programs》读完，并且把习题做完。但这个难度非常之大，需要花一些时间才能完成。我大概是在
