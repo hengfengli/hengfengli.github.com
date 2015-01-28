@@ -24,5 +24,5 @@ to run many times between several agencies. I heard that other universities can
 have a online system to book the transcript in English with a certain fee. 
 
 I will leave Beihai on 28th, and not too many days remains for my undergraduate 
-college. I will go to study aboard soon. It is pity but also with some new 
+college. I will go to study aboard soon. It is a pity but also with some  
 expectations for my future journeys. 
