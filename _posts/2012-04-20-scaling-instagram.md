@@ -3,6 +3,7 @@ layout: post
 title: "Scaling Instagram - 易扩展的Instagram"
 categories: [computer]
 tags: [instagram]
+published: false
 ---
 
 当所有人都在惊讶Instagram被Facebook收购的时候，我十分好奇，究竟是什么原因造成这个公司的效率如此之高，13个人的公司服务着几千万的用户。

@@ -3,6 +3,7 @@ layout: post
 title: "好消息，坏消息"
 categories: [melb]
 tags: [good-news bad-news]
+published: false
 ---
 
 好消息是，我注册和选课的事情都已经弄完了，可以开始上课了，我星期234上课，周1和周5都休息。

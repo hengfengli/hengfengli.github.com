@@ -3,6 +3,7 @@ layout: post
 title: "Apache Thrift - 跨语言服务开发框架"
 categories: [computer] 
 tags: [thrift]
+published: false
 ---
 
 在写project时候，遇到一个很有趣的问题，用php写的web层如何与java写的逻辑层通信呢？

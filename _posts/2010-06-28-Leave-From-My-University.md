@@ -3,6 +3,7 @@ layout: post
 title: "毕业离别"
 categories: [diary]
 tags: [graduate]
+published: false
 ---
 
 今天上午回的家。昨天晚上玩了一个通宵，真是好累啊，上午坐飞机的时候，都是昏昏沉沉的，只想睡觉了。回到家后，睡了2次，我妈都无语了，说我这么能睡，我都不敢告诉她，我昨晚通宵了。

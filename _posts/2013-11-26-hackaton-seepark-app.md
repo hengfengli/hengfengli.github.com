@@ -3,6 +3,7 @@ layout: post
 title:  "Ford AppLink Hackathon - Our iOS App {SeePark}"
 date:   2013-11-26 10:49:00
 categories: programming
+published: false
 ---
 
 Last weekend, my friend, Guan, and I went to the Ford AppLink Hackathon, which is an valuable 

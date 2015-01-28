@@ -3,6 +3,7 @@ layout: post
 title: "Dijkstra Algorithm"
 categories: [algorithm]
 tags: [dijkstra]
+published: false
 ---
 
 由于traffic simulator的项目里，涉及到一个求最短路径的问题。

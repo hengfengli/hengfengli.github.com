@@ -3,6 +3,7 @@ layout: post
 title: "我的雅思经历"
 categories: [experience]
 tags: [ielts]
+published: false
 ---
 
 这是那年通过雅思后，有个朋友问我相关的经验，我写了个总结给他。现在我可能又要考雅思了，所以拿出自己的以前的经验学习一下，挺有趣的。

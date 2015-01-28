@@ -3,6 +3,7 @@ layout: post
 title: "毕业典礼"
 categories: [diary]
 tags: [commencement]
+published: false
 ---
 
 今天是毕业典礼，早早的就起来了，浑浑噩噩的跑去了学术报告厅，结果刚进礼堂，就下起了暴雨，运气不错。

@@ -3,6 +3,7 @@ layout: post
 title: "OpenDay志愿者"
 categories: [melb]
 tags: [volunteers]
+published: false
 ---
 
 最近都基本上有作业下来了，要好好完成，都是占总成绩的呢。这个周末的星期天，是open day，然后上午帮房东布置展台，她是墨大的老师嘛（级别还行啊，是几个老师的头）。下午呢，就去帮系里，当志愿者，发衣服，负责签到之类的。最后拿到一个8.5刀的校内消费劵，哈哈，高兴。。
