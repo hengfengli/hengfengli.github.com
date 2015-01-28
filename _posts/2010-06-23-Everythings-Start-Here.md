@@ -1,16 +1,28 @@
 ---
 layout: post
-title: "新的开始"
+title: "A new start"
 categories: [diary]
 tags: [Beihai]
 ---
 
-昨天下午折腾了半天，又是买域名，又是买空间。
+Yesterday, I was struggling to buy a domain and web storage. 
 
-装wordpress的时候，还被homezz.com的客服cosbeta给抽脸了。。。
+When I was trying to install the Wordpress, the staff "cosbeta" of homezz.com 
+criticized me a bit. 
 
-我第一次用网络空间的管理，没弄清楚文件的层次关系。弄了半天，才知道要把wordpress目录下的整个内容放入public_html中。后来又遇到一个问题，加了www的域名能访问，但是没加的就无法访问。问了一下客服，结果他说：“这样的问题请自己搜吧。”，顿时感觉被人抽脸了。然后，自己去域名管理的那折腾了一会，把没加www的域名指向可以访问的域名就行了，这样就都可以访问了。
+It was my first time to use web storage, and I didn't figure out the relationships
+of files and folders. After a while, I just got that I have to put the 'wordpress' 
+directory into 'public_html'. Then, I met another problem that the domain with 
+the prefix "www" can be visited, but the one without "www" cannot be accessed. 
+So I asked the service staff and he said "please search it yourself". Yes, I 
+was a bit stupid. I went to the domain managing website, and after struggling 
+a while, I fixed the problem by myself and the feeling was good. 
 
-今天还把大学四年的中英文成绩单开出来了，办的还是比较顺利吧。围着院里的教务处和学校教务处来回跑，学校在这方面，还是不行。我听人家说，别人的大学都有网上的系统，可以自己申请开英文成绩单，交一些钱就好了。
+I also got the Chinese and English version of my academic transcript. Not very 
+hard. The administration system of my college is not very good, which bugs me a lot 
+to run many times between several agencies. I heard that other universities have 
+a online system to book the transcript in English with a certain fee. 
 
-28号离开北海，大学没几天了，出国也没几天了。。。不知道是快乐还是忧愁啊。。。
+I will leave Beihai on 28th, and there is no more days for my undergraduate 
+college. I will go to study aboard soon. It is pity but also with some new 
+expectations for my future journeys. 
