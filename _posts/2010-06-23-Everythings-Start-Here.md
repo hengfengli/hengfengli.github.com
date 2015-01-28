@@ -20,9 +20,9 @@ a while, I fixed the problem by myself and the feeling was good.
 
 I also got the Chinese and English version of my academic transcript. Not very 
 hard. The administration system of my college is not very good, which bugs me a lot 
-to run many times between several agencies. I heard that other universities have 
-a online system to book the transcript in English with a certain fee. 
+to run many times between several agencies. I heard that other universities can 
+have a online system to book the transcript in English with a certain fee. 
 
-I will leave Beihai on 28th, and there is no more days for my undergraduate 
+I will leave Beihai on 28th, and not too many days remains for my undergraduate 
 college. I will go to study aboard soon. It is pity but also with some new 
 expectations for my future journeys. 
