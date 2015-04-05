@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[翻译] Writing and Speaking"
+title: "[翻译] Writing and speaking"
 categories: [translation]
 tags: [paul-graham]
 published: true
