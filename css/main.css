@@ -16,13 +16,15 @@ body {
   background-color: #FFF;
   /* font: 13.34px Helvetica, Arial, sans-serif; */
   /* font-size: small; */
-  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
-  font-size: 18px;
+/*  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;*/
+  font-family: Tahoma;
+  font-size: 16px;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 130%; }
+  font-size: 130%; 
+}
 
 h1, h2, h3, h4, h5, h6 { margin: 1em 0; }
 p { margin: 1em 0; }
@@ -49,7 +51,7 @@ ul.posts li {
 
 ul.posts span {
   color: #aaa;
-  font-family: Monaco, "Courier New", monospace;
+/* font-family: Monaco, "Courier New", monospace;*/
   font-size: 80%;
 }
 
@@ -172,7 +174,7 @@ ul {
 }
 
 .highlight {
-  font-size: 16px;
+  font-size: 13px;
   line-height: 1.3em;
 }
 

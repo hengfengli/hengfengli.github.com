@@ -3,21 +3,23 @@ layout: post
 title: "My explanation to a simple recursive exercise"
 categories: [programming]
 tags: [recursion]
-published: false
+published: true
 ---
+
+I am doing the lab demonstrator this semester again for a Python subject. I received an email from a student to ask an exercise about how to reverse a simple list (not nested list) in a recursive way instead of using an imperative method (e.g., for and while loops). My answer is as following: 
 
 For this exercise, first you need to know that a recursion program needs two 
 conditions: 1) stop condition; 2) recursive condition (reducing the problem to 
 a subset). 
 
-1) Stop condition. When should the program stop? If the input is an empty list, 
+1) **Stop condition.** When should the program stop? If the input is an empty list, 
 we should stop the search and return an empty list. Also, if the input is a list
 with a single element, we can just return that list because we do not need to 
 reverse it. 
 
 {% highlight python %}
-    if len(string_List) == 0 or len(string_List) == 1:
-        return 0
+if len(string_List) == 0 or len(string_List) == 1:
+    return 0
 {% endhighlight %}
 
 You checking conditions are correct, but you only need one of them, either an 
@@ -38,7 +40,7 @@ if len(string_List) == 1:
 	return string_List
 {% endhighlight %}
 
-2) Recursive condition. 
+2) **Recursive condition.**
 
 Let’s assume that you have a list “l” and a function “reverse": 
 
@@ -50,7 +52,8 @@ reverse(l[1:]) = reverse(l[2:]) + l[1]
 reverse(l[2:]) = reverse(l[3:]) + l[2]
 reverse(l[3:]) = reverse(l[4:]) + l[3]
 reverse(l[4:]) = reverse(l[5:]) + l[4]
-reverse(l[5:]) = []   # The recursion stops when meeting your stop condition. 
+# The recursion stops when meeting your stop condition. 
+reverse(l[5:]) = []
 {% endhighlight %}
 
 Then, you see when the program puts “reverse(l[5:])” back into previous 
@@ -72,8 +75,8 @@ So the entire code should be:
 
 {% highlight python %}
 def reverseLines(string_List):
-	# you can use a “print” to check the input for each call of this function
-	# print string_List
+	# you can use a “print” to check the input for each call 
+    # of this function print string_List
 	if len(string_List) == 0:
 		return []
 	else:

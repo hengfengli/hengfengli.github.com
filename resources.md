@@ -6,7 +6,7 @@ title: Hengfeng's Blog
 Useful Resources
 ==========
 
-**Books, tutorials, and online courses**
+#### Books, tutorials, and online courses
 
 Done: 
 
@@ -20,3 +20,9 @@ To do:
 
 02. ...
 
+
+#### Useful links
+
+01. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+02. ...
