@@ -3,7 +3,7 @@ layout: post
 title: "Traffic Simulator"
 categories: [computer]
 tags: [traffic]
-published: false
+published: true
 ---
 
 最近一直在写MEDC project的报告，MEDC project是我们专业一个课程，占两门课的学分，跟着老师做project。

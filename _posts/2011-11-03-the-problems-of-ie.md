@@ -3,7 +3,7 @@ layout: post
 title: "面试和IE的问题"
 categories: [programming]
 tags: [ie]
-published: false
+published: true
 ---
 
 昨天电话面试，面的挺惨烈的，被问到了挺多关于IE的问题，真是被难倒了，完全不懂。

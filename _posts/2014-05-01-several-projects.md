@@ -3,7 +3,7 @@ layout: post
 title:  "OSM-parser, KNN, Beijing Traffic Visualization"
 date:   2014-05-01 11:54:00
 categories: programming
-published: false
+published: true
 ---
 
 最近有把两个小工具放在github上，osm-parser和knn的实现。因为之前自己的研究，有涉及到这两个

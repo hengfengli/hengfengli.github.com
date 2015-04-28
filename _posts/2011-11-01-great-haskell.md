@@ -3,7 +3,7 @@ layout: post
 title: "学习Haskell"
 categories: [programming]
 tags: [haskell]
-published: false
+published: true
 ---
 
 不得不说，虽然刚开始学Haskell的时候，觉得好难，经常会想，为什么会有这样的写法，为什么要这样？

@@ -3,7 +3,7 @@ layout: post
 title: "如何准备面试"
 categories: [programming]
 tags: [interview]
-published: false
+published: true
 ---
 
 刚刚看了非常敬佩的一位作者写的[《怎样花两年时间去面试一个人》](http://mindhacks.cn/2011/11/04/how-to-interview-a-person-for-two-years/)，非常认同作者所说的话，也从中学到了很多东西。
