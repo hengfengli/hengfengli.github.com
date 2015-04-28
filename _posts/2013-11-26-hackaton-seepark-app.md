@@ -77,7 +77,7 @@ come up with some your own idea, design, implement, and show it to so many audie
 You developed app is so close to your life and other people's life. It would be 
 really pleasure to have an app that can help people. 
 
-__Learning objective-c and programming on iOS is fun!__
+__Learning objective-c and programming on iOS is quite enjoyable!__
 
 
 
