@@ -44,4 +44,4 @@ If you do accept the conditions I describe above, I am happy to continue to prov
 
 <font color='red'>"in sight": visible; near at hand; close to being achieved or realized.</font>
 
-Mu-ming 
+Mu-ming
