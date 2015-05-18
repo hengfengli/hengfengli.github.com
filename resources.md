@@ -8,10 +8,12 @@ Useful Resources
 
 #### Books, tutorials, and online courses
 
-Doing: 
 
 01. "Programming Pearls 2nd Edition" - Jon Bentley 
 [Amazon](http://www.amazon.com/Programming-Pearls-2nd-Edition-Bentley/dp/0201657880)
+[**My comments:** A great classic book about programming. I read it completely 
+before my Microsoft interview, and it helps a lot. As the author suggests, 
+you need to read it slowly and think about its exercises.]
 
 02. "Writing Solid Code 1st Edition" - Steve Maguire 
 [Amazon](http://www.amazon.com/Writing-Solid-Microsoft-Programming-Series/dp/1556155514)
@@ -20,17 +22,6 @@ elegant. It is an excellent book to read. I need to learn how to write
 like the author. This book was written in 1993, but recently the author
 published the 2nd ed. in 2013 after 20 years.]
 
-To do: 
-
-01. ...
-
-02. ...
-
-Done: 
-
-01. ...
-
-02. ...
 
 #### Useful links
 
