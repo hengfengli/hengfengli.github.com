@@ -27,7 +27,7 @@ record some important notes here.
 
 Standard IO library: 
 
-{% highlight c %}
+{% highlight cpp %}
 #include <stdio.h>
 
 int main()
@@ -72,7 +72,7 @@ Formatted print:
 #### 1.3 The For Statement
 
 
-{% highlight c %}
+{% highlight cpp %}
 for (fahr = 0; fahr <= 300; fahr = fahr + 20)
     printf("%3d %6.1f\n", fahr, (5.0/9.0)*(fahr-32));
 {% endhighlight %}
@@ -80,7 +80,7 @@ for (fahr = 0; fahr <= 300; fahr = fahr + 20)
 
 #### 1.4 Symbolic Constants
 
-{% highlight c %}
+{% highlight cpp %}
 #define    LOWER  0
 #define    UPPER  300
 #define    STEP   20
@@ -88,7 +88,7 @@ for (fahr = 0; fahr <= 300; fahr = fahr + 20)
 
 #### 1.5 Character Input and Output
 
-{% highlight c %}
+{% highlight cpp %}
 // c = getchar()  =>  read a char
 // putchar(c)     =>  print a char
 
@@ -107,7 +107,7 @@ int main()
 
 Define an array with a fixed size, and remember to initialize it: 
 
-{% highlight c %}
+{% highlight cpp %}
 int ndigit[10];
 
 for (i = 0; i < 10; i++)
@@ -158,7 +158,7 @@ the function can access and alter any element of the array.
 
 #### 1.9 Character Arrays
 
-{% highlight c %}
+{% highlight cpp %}
 # define MAXLINE 1000
 char line[MAXLINE];
 char longest[MAXLINE];
@@ -176,7 +176,7 @@ void copy(char from[], char to[])
 
 **REMEMBER:** '\0' is the null character, whose value is zero. 
 
-{% highlight c %}
+{% highlight cpp %}
 "h|e|l|l|o|\n|\0"
 {% endhighlight %}
 
@@ -185,7 +185,7 @@ void copy(char from[], char to[])
 
 The keyword **"extern"** is to declare a global variable in a function: 
 
-{% highlight c %}
+{% highlight cpp %}
 int max;
 char longest[MAXLINE];
 
