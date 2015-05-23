@@ -22,6 +22,12 @@ elegant. It is an excellent book to read. I need to learn how to write
 like the author. This book was written in 1993, but recently the author
 published the 2nd ed. in 2013 after 20 years.]
 
+03. "The Elements of Style" - William Strunk, JR. [**My comments:** This 
+is an old book about word usage and writing style. Good writing is  
+extremely important in one's life. So it is worth to keep such a great 
+book handy.]
+
+
 
 #### Useful links
 
