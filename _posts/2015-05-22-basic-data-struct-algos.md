@@ -9,15 +9,15 @@ published: true
 This table comes from page 47 in the book "Cracking the coding interview 
 (5th ed.)". 
 
-| Data Structures               | Algorithms             | Concepts                 |
-|:-----------------------------:|:----------------------:|:------------------------:|
-| [Linked Lists](#linkedlists)  | Breadth First Search   | Bit Manipulation         |
-| Binary Trees                  | Depth First Search     | Singleton Design Pattern |
-| Tries                         | Binary Search          | Factory Design Pattern   |
-| Stacks                        | Merge Sort             | Memory (Stack vs. Heap)  |
-| Queues                        | Quick Sort             | Recursion                |
-| Vectors/ArrayLists            | Tree Insert/Find/etc.  | Big-O Time               |
-| Hash Tables                   |                        |                          |
+| Data Structures               | Algorithms                     | Concepts                 |
+|:-----------------------------:|:------------------------------:|:------------------------:|
+| [Linked Lists](#linkedlists)  | Breadth First Search           | Bit Manipulation         |
+| [Binary Trees](#bst)          | Depth First Search             | Singleton Design Pattern |
+| Tries                         | Binary Search                  | Factory Design Pattern   |
+| Stacks                        | Merge Sort                     | Memory (Stack vs. Heap)  |
+| Queues                        | Quick Sort                     | Recursion                |
+| Vectors/ArrayLists            | [Tree Insert/Find/etc.](#bst)  | Big-O Time               |
+| Hash Tables                   |                                |                          |
 
 
 #### <a name="linkedlists"></a>Linked Lists
@@ -102,3 +102,160 @@ public class LinkedList<Item>
     }
 }
 {% endhighlight %}
+
+
+#### <a name="bst"></a>Binary Search Tree
+
+The content comes from the Page 396-414 in the 
+book "Algorithms 4th" by Sedgewick, Wayne. 
+
+Worst case:
+
+| algorithm <br \> (data structure)                | search   | insert |
+| ------------------------------------------------ |:--------:|:------:|
+| sequential search <br \> (unordered linked list) |  O(N)    | O(N)   |
+| binary search <br \> (ordered array)             |  O(lgN)  | O(N)   |
+| binary tree search <br \> (BST)                  |  O(N)    | O(N)   |
+
+Average case:
+
+| algorithm <br \> (data structure)  | search |  insert |  support ordered <br \> operations? |
+| ------------------------------------------------ |:-----------:|:-----------:|:----------:|
+| sequential search <br \> (unordered linked list) |  O(N/2)     | O(N)       | no  |
+| binary search <br \> (ordered array)             |  O(lgN)     | O(N/2)     | yes |
+| binary tree search <br \> (BST)                  |  O(1.39lgN) | O(1.39lgN) | yes |
+
+Java version: 
+
+{% highlight java %}
+public class BST<Key extends Comparable<Key>, Value>
+{
+    private Node root;
+    
+    private class Node
+    {
+        private Key key;
+        private Value val;
+        private Node left, right;
+        private int N;
+        
+        public Node(Key key, Value val, int N)
+        {
+            this.key = key;
+            this.val = val;
+            this.N   = N;
+        }
+    }
+    
+    public int size()
+    {
+        return size(root);
+    }
+    
+    private int size(Node x)
+    {
+        if (x == null) return 0;
+        else           return x.N;
+    }
+    
+    public Value search(Key key)
+    {
+        return search(root, key);
+    }
+    
+    private Value search(Node x, Key key)
+    {
+        if (x == null) return null;
+        int cmp = key.compareTo(x.key);
+        if      (cmp < 0) return search(x.left, key);
+        else if (cmp > 0) return search(x.right, key);
+        else return x.val;
+    }
+    
+    public void insert(Key key, Value val)
+    {
+        root = insert(root, key, val);
+    }
+    
+    private Node insert(Node x, Key key, Value val)
+    {
+        if (x == null) return new Node(key, val, 1);
+        int cmp = key.compareTo(x.key);
+        if      (cmp < 0) x.left  = insert(x.left, key, val);
+        else if (cmp > 0) x.right = insert(x.right, key, val);
+        else x.val = val;
+        x.N = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+    
+    public Key min()
+    {
+        return min(root).key;
+    }
+    
+    private Node min(Node x)
+    {
+        if (x.left == null) return x;
+        return min(x.left);
+    }
+    
+    public void deleteMin()
+    {
+        root = deleteMin(root);
+    }
+    
+    private Node deleteMin(Node x)
+    {
+        if (x.left == null) return x.right;
+        x.left = deleteMin(x.left);
+        x.N = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+    
+    // delete: replace x by its successor (smallest node in the right
+    // subtree)
+    public void delete(Key key)
+    {
+        root = delete(root, key);
+    }
+    
+    private Node delete(Node x, Key key)
+    {
+        if (x == null) return null;
+        int cmp = key.compareTo(x.key);
+        if      (cmp < 0) x.left  = delete(x.left, key);
+        else if (cmp > 0) x.right = delete(x.right, key);
+        else
+        {
+            if (x.right == null) return x.left;
+            if (x.left == null) return x.right;
+            Node t = x;
+            x = min(t.right);
+            x.right = deleteMin(t.right);
+            x.left = t.left;
+        }
+        x.N = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+    
+    public static void main(String[] args)
+    {
+        BST<String, String> bst = new BST<String, String>();
+        
+        bst.insert("S","S");
+        bst.insert("E","E");
+        bst.insert("X","X");
+        bst.insert("A","A");
+        bst.insert("C","C");
+        bst.insert("R","R");
+        bst.insert("H","H");
+        
+        System.out.println(bst.search("H"));
+        System.out.println(bst.size());
+        bst.delete("H");
+        System.out.println(bst.size());
+        System.out.println(bst.search("H"));
+    }
+}
+{% endhighlight %}
+
