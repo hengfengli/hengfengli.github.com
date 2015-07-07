@@ -13,7 +13,7 @@ This table comes from page 47 in the book "Cracking the coding interview
 |:-----------------------------:|:------------------------------:|:------------------------:|
 | [Linked Lists](#linkedlists)  | Breadth First Search           | Bit Manipulation         |
 | [Binary Trees](#bst)          | Depth First Search             | Singleton Design Pattern |
-| Tries                         | Binary Search                  | Factory Design Pattern   |
+| Tries                         | [Binary Search](#bs)           | Factory Design Pattern   |
 | Stacks                        | Merge Sort                     | Memory (Stack vs. Heap)  |
 | Queues                        | Quick Sort                     | Recursion                |
 | Vectors/ArrayLists            | [Tree Insert/Find/etc.](#bst)  | Big-O Time               |
@@ -259,3 +259,61 @@ public class BST<Key extends Comparable<Key>, Value>
 }
 {% endhighlight %}
 
+#### <a name="bs"></a>Binary Search
+
+The content comes from Page 9 (iterative) and Page 380 (recursive) in
+the  book "Algorithms 4th" by Sedgewick, Wayne.  
+
+Java version: 
+
+{% highlight java %}
+import java.util.Arrays;
+
+public class BinarySearch
+{
+    public static int searchIterative(int key, int[] a)
+    {
+        int lo = 0;
+        int hi = a.length - 1;
+        while (lo <= hi)
+        {
+            int mid = lo + (hi - lo) / 2;
+            if      (key < a[mid]) hi = mid - 1;
+            else if (key > a[mid]) lo = mid + 1;
+            else                   return mid;
+        }
+        return -1;
+    }
+    
+    public static int searchRecursive(int key, int[] a)
+    {
+        return searchRecursiveHelper(key, 0, a.length-1, a);
+    }
+    
+    private static int searchRecursiveHelper(int key, int lo, int hi, int[] a)
+    {
+        if (hi < lo) return -1;
+        int mid = lo + (hi - lo) / 2;
+        if      (key < a[mid]) return searchRecursiveHelper(key, lo, mid-1, a);
+        else if (key > a[mid]) return searchRecursiveHelper(key, mid+1, hi, a);
+        else                   return mid;
+    }
+    
+    public static void main(String[] args)
+    {
+        int[] whitelist = new int[] {1,5,52,23,123,32,55,78,21,32};
+        
+        Arrays.sort(whitelist);
+        
+        System.out.println(searchIterative(1, whitelist));
+        System.out.println(searchIterative(55, whitelist));
+        System.out.println(searchIterative(32, whitelist));
+        System.out.println(searchIterative(11, whitelist));
+        
+        System.out.println(searchRecursive(1, whitelist));
+        System.out.println(searchRecursive(55, whitelist));
+        System.out.println(searchRecursive(32, whitelist));        
+        System.out.println(searchRecursive(11, whitelist));
+    }
+}
+{% endhighlight %}
