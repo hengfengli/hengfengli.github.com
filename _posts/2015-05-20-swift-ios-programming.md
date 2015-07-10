@@ -35,6 +35,19 @@ may feel quite familiar about its syntax and grammar.
 **My Comments:** I found this course in Itunes U and 
 this is what I need. 
 
+[4]   [A tutorial for developing a Tetris game](https://www.bloc.io/tutorials/swiftris-build-your-first-ios-game-with-swift#!/chapters/675)
+
+**My Comments:** A very cool game. This tutorial is great, which not only
+teaches you how to design this game, but also links related knowledge of 
+Swift. 
+
+[5]   [Swift Education](http://swifteducation.github.io/)
+
+**My Comments:** It is recommended by the official website. It aims to 
+guide teachers to prepare for their classes in Swift app development.
+The website has many cool projects that contain all necessary stuff,
+e.g., code and spec, for a class. 
+
 All following examples come from [2]: 
 
 **A Swift Tour**
