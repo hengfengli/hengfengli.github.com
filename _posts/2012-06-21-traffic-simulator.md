@@ -6,32 +6,48 @@ tags: [traffic]
 published: true
 ---
 
-最近一直在写MEDC project的报告，MEDC project是我们专业一个课程，占两门课的学分，跟着老师做project。
-这次我们做的是一个分布式的Traffic Simulator，然后老师希望能通过Browser的形式展现出来。
+This is a MEDC research project. We aim to develop a decentralized 
+traffic simulator presented by Web browsers. 
 
-由于之前在百度贴吧前端组实习，在这方面比其他人要强一点点，所以我就负责前端和地图处理的方面。
-在开发的过程中呢，也学习了许多东西，例如，开发OpenStreetMap地图的OpenLayer.js，画图的Processing.js，
-Facebook跨语言通信的框架Thrift，还有HTTP长连接的实现，等等。
+My tasks: 
 
-最终，算是圆满实现了，老师也比较开心，因为之前有个本科生的8人小组，开发了一个类似的系统，但最终效果很差，
-只能模拟很少量的车。而我们的系统，可以模拟上万条街吧。
+*   Processed the map data from OpenStreetMap and learnt related APIs 
+and the structure of an OSM file. 
+*   Implemented a Web map application by using OpenLayer.js and 
+Processing.js. 
+*   Solved the cross-platform communication problem by using 
+Apache Thrift. 
+*   Addressed the key issue of continuously pushing simulation data
+from server side to browser side (long-HTTP connection technique using
+PHP and JavaScript). 
 
-这个是用户选定指定模拟的区域大小。
+Before us, an undergraduate group of eight people developed a  similar
+system, but only can simulate few vehicles. However, our system is able
+to simulate more than <b>10,000</b> vehicles on a single computer. 
+
+A user can select a region for simulation. The system will automatically 
+download the map data from OpenStreetMap. 
 
 ![screen](https://lh4.googleusercontent.com/-N1npJ6VDYZw/T-QBKPTz9yI/AAAAAAAAAUQ/9smVZsGRvg4/s640/area_captor.png)
 
-这个是模拟汽车在真实的地图上跑。
+A dot in red or green color (like an ant) represent a single vehicle. 
+The movement of vehicles is calculated by a car-following model. 
+Vehicles can also change their lanes. 
 
 ![screen](https://lh6.googleusercontent.com/-syxNFy1ugTA/T-QBO72ufaI/AAAAAAAAAUo/4n60rKe3Zu4/s640/snapshot1.png)
 
-显示交通流量。
+The presentation can be changed to a density view. In this view, traffic 
+flow of road segments are presented which is similar to Google Traffic Maps 
+but the key difference is that our system updates the traffic in real time. 
 
 ![screen](https://lh3.googleusercontent.com/-9WPkdHtmWJo/T-QBLqxUfgI/AAAAAAAAAUY/RLa0_Gk6Yuw/s640/density.png)
 
-由于是分布式计算，所以，给出了地图是如何分割，哪些worker负责哪些街道的模拟计算。
+We divide the map data into different parts for processors in order 
+to achieve decentralized computing. Different colors of streets means
+that they are in different processors. 
 
 ![screen](https://lh4.googleusercontent.com/-X4dCfjSlwjA/T-QBMwtYXDI/AAAAAAAAAUg/ns-dV10hwig/s640/partitions2.png)
 
-接下来，这个月有很多事情要办，要弄offer，签证，手机，搬房子，带我妈出去玩玩，选定课题，开始phd的旅途。
+This is a research project so that I cannot make the 
+code publicly available. 
 
-这是人生另一个新的开始，就像高中毕业，本科毕业一样，我即将Master毕业了。
