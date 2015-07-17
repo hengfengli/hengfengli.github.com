@@ -3,33 +3,23 @@ layout: default
 title: Hengfeng's Blog
 ---
 
-Useful Resources
+Books I’ve read recently
 ==========
 
-#### Books, tutorials, and online courses
+July 2015
 
+Thinking, Fast and Slow, Daniel Kahneman
 
-01. "Programming Pearls 2nd Edition" - Jon Bentley 
-[Amazon](http://www.amazon.com/Programming-Pearls-2nd-Edition-Bentley/dp/0201657880)
-[**My comments:** A great classic book about programming. I read it completely 
-before my Microsoft interview, and it helps a lot. As the author suggests, 
-you need to read it slowly and think about its exercises.]
+May 2015
 
-02. "Writing Solid Code 1st Edition" - Steve Maguire 
-[Amazon](http://www.amazon.com/Writing-Solid-Microsoft-Programming-Series/dp/1556155514)
-[**My comments:** I really like his writing style and word usage - simple and 
-elegant. It is an excellent book to read. I need to learn how to write 
-like the author. This book was written in 1993, but recently the author
-published the 2nd ed. in 2013 after 20 years.]
+Programming Pearls, Jon Bentley 
 
-03. "The Elements of Style" - William Strunk, JR. [**My comments:** This 
-is an old book about word usage and writing style. Good writing is  
-extremely important in one's life. So it is worth to keep such a great 
-book handy.]
+Writing Solid Code 1st Edition, Steve Maguire 
 
+The Elements of Style,  William Strunk, JR.
 
-
-#### Useful links
+Useful Resources
+==========
 
 01. [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
