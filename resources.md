@@ -3,21 +3,6 @@ layout: default
 title: Hengfeng's Blog
 ---
 
-Books I’ve read recently
-==========
-
-July 2015
-
-Thinking, Fast and Slow, Daniel Kahneman
-
-May 2015
-
-Programming Pearls, Jon Bentley 
-
-Writing Solid Code 1st Edition, Steve Maguire 
-
-The Elements of Style,  William Strunk, JR.
-
 Useful Resources
 ==========
 
