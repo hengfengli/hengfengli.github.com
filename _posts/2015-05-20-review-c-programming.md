@@ -3,7 +3,7 @@ layout: post
 title: "Review C Programming"
 categories: [interview]
 tags: [interview]
-published: true
+published: false
 ---
 
 After the MS interview, I realize that I need to review my C
