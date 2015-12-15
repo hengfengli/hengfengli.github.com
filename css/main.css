@@ -17,13 +17,13 @@ body {
   /* font: 13.34px Helvetica, Arial, sans-serif; */
   /* font-size: small; */
 /*  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;*/
-  font-family: Tahoma;
+  font-family: Helvetica;
   font-size: 16px;
   text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-size: 130%; 
+  font-size: 100%; 
 }
 
 h1, h2, h3, h4, h5, h6 { margin: 1em 0; }
