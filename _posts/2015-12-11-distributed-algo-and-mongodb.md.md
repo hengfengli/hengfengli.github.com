@@ -3,7 +3,7 @@ layout: post
 title: "Two goals for 2015 - Distributed Algorithms and MongoDB"
 categories: [programming]
 tags: [distributed algorithms, MongoDB]
-published: true
+published: false
 ---
 
 I want to set up two goals for 2015 and not many days remain: 
