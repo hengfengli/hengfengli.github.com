@@ -2,4 +2,4 @@ name: Hengfeng's Blog
 description: Occasionally write something about myself. 
 url: http://hengfengli.github.io/
 markdown: kramdown
-highlighter: true
+rouge: true
