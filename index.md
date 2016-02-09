@@ -3,17 +3,13 @@ layout: default
 title: Hengfeng's Blog
 ---
 
-<!--
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+<div id="home">
+  <h1>Blog Posts</h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
 
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
--->
 
-Personal Reading List
-=====================
-
-(03 Feb 2016) The Book on Writing - Paula Larocque
-
-(01 Dec 2015) Distributed Algorithms An Intuitive Approach - Wan Fokkink
-
-(12 Dec 2015) Programmers At Work - Susan Lammers (Bill Gates's Chapter)
