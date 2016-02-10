@@ -14,6 +14,8 @@ published: true
 还得多加训练。所以，也促成我想开始写一点关于自己遇到的算法问题，以及如何解决的方法。
 毕竟，教是最好的学嘛。
 
+---
+
 __Problem:__ Given a group of sets S, find a minimal set covering that 
 includes all elements in U. 
 
@@ -70,3 +72,18 @@ U = set([1,2,3,4,5])
 
 print set_cover(S, U)
 ~~~
+
+我这里给一个简单实现，更多的可以看看wikipedia。更困难的题目是每个set都有一个weight，
+求既要覆盖U的所有元素，并且要求最小weight，可以看看[3]。
+
+---
+
+__Reference__
+
+[0] [Set cover problem on Wikipedia](https://en.wikipedia.org/wiki/Set_cover_problem)
+
+[1] [Polynomials on MATH is FUN](http://www.mathsisfun.com/algebra/polynomials.html)
+
+[2] [什么是P问题、NP问题和NPC问题](http://www.matrix67.com/blog/archives/105)
+
+[3] [Set Cover Problem Set 1 (Greedy Approximate Algorithm)](http://www.geeksforgeeks.org/set-cover-problem-set-1-greedy-approximate-algorithm/)
