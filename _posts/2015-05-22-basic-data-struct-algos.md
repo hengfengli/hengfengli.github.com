@@ -111,19 +111,19 @@ book "Algorithms 4th" by Sedgewick, Wayne.
 
 Worst case:
 
-| algorithm <br \> (data structure)                | search   | insert |
+| algorithm <br> (data structure)                | search   | insert |
 | ------------------------------------------------ |:--------:|:------:|
-| sequential search <br \> (unordered linked list) |  O(N)    | O(N)   |
-| binary search <br \> (ordered array)             |  O(lgN)  | O(N)   |
-| binary tree search <br \> (BST)                  |  O(N)    | O(N)   |
+| sequential search <br> (unordered linked list) |  O(N)    | O(N)   |
+| binary search <br> (ordered array)             |  O(lgN)  | O(N)   |
+| binary tree search <br> (BST)                  |  O(N)    | O(N)   |
 
 Average case:
 
-| algorithm <br \> (data structure)  | search |  insert |  support ordered <br \> operations? |
+| algorithm <br> (data structure)  | search |  insert |  support ordered <br> operations? |
 | ------------------------------------------------ |:-----------:|:-----------:|:----------:|
-| sequential search <br \> (unordered linked list) |  O(N/2)     | O(N)       | no  |
-| binary search <br \> (ordered array)             |  O(lgN)     | O(N/2)     | yes |
-| binary tree search <br \> (BST)                  |  O(1.39lgN) | O(1.39lgN) | yes |
+| sequential search <br> (unordered linked list) |  O(N/2)     | O(N)       | no  |
+| binary search <br> (ordered array)             |  O(lgN)     | O(N/2)     | yes |
+| binary tree search <br> (BST)                  |  O(1.39lgN) | O(1.39lgN) | yes |
 
 Java version: 
 
