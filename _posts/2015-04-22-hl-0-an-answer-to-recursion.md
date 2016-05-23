@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "My explanation to a simple recursive exercise"
-categories: [programming]
-tags: [recursion]
+title: "[HL-0] My explanation to a simple recursive exercise"
+categories:
+    - algorithm
+tags:
+    - recursion
 published: true
 ---
 

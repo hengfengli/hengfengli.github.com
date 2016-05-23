@@ -1,18 +1,15 @@
 ---
 layout: post
-title: "0 - Minimal set cover problem"
-categories: [programming]
-tags: [algorithm]
+title: "[HL-2] Minimal set cover problem"
+categories: 
+    - algorithm
+tags: 
+    - set
 published: true
 ---
 
-我在之前的interview中遇见了这道题，可以说是我的第一道phone interview题目。
-当时并没有反应过来，是minimal set cover问题。最近一个印度同事在准备interview，
-所以问了我一下之前的经验，我把遇到过的题目发给她了。结果她一看，就能立马反应出，
-这是一道minimal set cover问题，find a set covering that uses the fewest sets，
-这是个NP-hard问题。突然，感慨自己的经验不够，做算法题太少，面对题目的反应和分析能力不够，
-还得多加训练。所以，也促成我想开始写一点关于自己遇到的算法问题，以及如何解决的方法。
-毕竟，教是最好的学嘛。
+This is a minimal set cover problem. I met such a problem during one 
+of my coding interviews. 
 
 ---
 
@@ -73,8 +70,9 @@ U = set([1,2,3,4,5])
 print set_cover(S, U)
 ~~~
 
-我这里给一个简单实现，更多的可以看看wikipedia。更困难的题目是每个set都有一个weight，
-求既要覆盖U的所有元素，并且要求最小weight，可以看看[3]。
+Here, I give a simple implementation. You can find more on Wikipedia. 
+A more difficult problem is that every set has a weight, so it requires 
+to cover all items in U with a minimal total weight (refer to [3]). 
 
 ---
 
@@ -84,6 +82,7 @@ __Reference__
 
 [1] [Polynomials on MATH is FUN](http://www.mathsisfun.com/algebra/polynomials.html)
 
-[2] [什么是P问题、NP问题和NPC问题](http://www.matrix67.com/blog/archives/105)
+[2] [What is P, NP, and NPC problems (Chinese)](http://www.matrix67.com/blog/archives/105), 
+great explanation of those problems. 
 
 [3] [Set Cover Problem Set 1 (Greedy Approximate Algorithm)](http://www.geeksforgeeks.org/set-cover-problem-set-1-greedy-approximate-algorithm/)

@@ -1,10 +1,12 @@
 ---
 layout: post
-title: "[Program] Text calendar generator"
+title: "[SP-5] Text calendar generator"
 categories: [programming]
 tags: [calendar]
 published: true
 ---
+
+SP means a Side Project. 
 
 I saw a cool calendar in Brian Kernighan's course website [cos333](http://www.cs.princeton.edu/courses/archive/spring14/cos333/). So I made one to remind me of important conference deadlines. It can automatically attach events to the calendar with assigned colors. I've put my code on my [github](https://github.com/HengfengLi/text-calendar-generator). Have fun!
 

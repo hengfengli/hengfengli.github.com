@@ -3,7 +3,7 @@ layout: post
 title: "[翻译] Spend sufficient amount of time and effort in the work"
 categories: [translation]
 tags: [research]
-published: true
+published: false
 ---
 
 著名华人生物学家蒲慕明的一封email。

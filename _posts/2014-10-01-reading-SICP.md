@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "SICP solutions"
+title:  "[SP-4] SICP solutions"
 date:   2014-11-06 11:32:00
-categories: reading
+categories: 
+    - project
+tags:
+    - SICP
 published: true
 ---
 

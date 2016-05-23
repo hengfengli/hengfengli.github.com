@@ -3,7 +3,7 @@ layout: post
 title: "[翻译] Writing and speaking"
 categories: [translation]
 tags: [paul-graham]
-published: true
+published: false
 ---
 
 原文链接:[http://www.paulgraham.com/speak.html](http://www.paulgraham.com/speak.html)

@@ -3,7 +3,7 @@ layout: post
 title: "Solving the Mandelbrot Set Problem by Using MPI "
 categories: [programming]
 tags: [mpi]
-published: true
+published: false
 ---
 
 I present some pictures drawn by my programs for solving the Mandelbrot

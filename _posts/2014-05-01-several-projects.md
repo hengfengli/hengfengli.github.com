@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "OSM-parser, KNN, Beijing Traffic Visualization"
-date:   2014-05-01 11:54:00
-categories: programming
+title:  "[SP-3] OSM-parser, KNN, Beijing Traffic Visualization"
+categories: 
+    - project
+tags:
+    - visualization
 published: true
 ---
 

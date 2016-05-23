@@ -12,6 +12,8 @@ $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 Personal Reading List
 =====================
 
+---------------
+
 __Data structure & algorithms__
 
 Introduction to Algorithms by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen
@@ -23,6 +25,8 @@ Algorithms, 4th Edition by Robert Sedgewick and Kevin Wayne
 Introduction to the Design & Analysis of Algorithms by Anany Levitin
 
 Data Structures and Algorithm Analysis in C by Mark Allen Weiss
+
+---------------
 
 __Programming language__
 
@@ -36,6 +40,8 @@ Thinking in Java 4th Book by Bruce Eckel
 
 The C Programming Language 2nd Edition by Brian W. Kernighan, Dennis M. Ritchie
 
+---------------
+
 __Writing code__
 
 Structure and Interpretation of Computer Programs 
@@ -47,11 +53,15 @@ Writing Solid Code by Steve Maguire
 
 Programming Pearls by Jon Bentley
 
+---------------
+
 __System__
 
 Distributed Systems: Concepts and Design by George Coulouris, Jean Dollimore, and Tim Kindberg
 
 Distributed Algorithms An Intuitive Approach by Wan Fokkink
+
+---------------
 
 __Books on writing__
 

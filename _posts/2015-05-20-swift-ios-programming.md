@@ -1,8 +1,10 @@
 ---
 layout: post
-title: "Learning Swift"
-categories: [programming]
-tags: [swift]
+title: "[SP-6] Learning Swift"
+categories: 
+    - project
+tags: 
+    - swift
 published: true
 ---
 

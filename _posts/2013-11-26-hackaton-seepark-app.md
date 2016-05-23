@@ -1,8 +1,10 @@
 ---
 layout: post
-title:  "Ford AppLink Hackathon - Our iOS App {SeePark}"
-date:   2013-11-26 10:49:00
-categories: programming
+title:  "[SP-2] Ford AppLink Hackathon - Our iOS App {SeePark}"
+categories: 
+    - project
+tags:
+    - hackathon
 published: true
 ---
 

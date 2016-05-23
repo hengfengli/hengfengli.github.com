@@ -3,7 +3,7 @@ layout: post
 title: "[翻译] Generative models for road network reconstruction"
 categories: [translation]
 tags: [map-inference]
-published: true
+published: false
 ---
 
 [Kuntzsch, Colin, Monika Sester, and Claus Brenner. "Generative models for road network reconstruction." International Journal of Geographical Information Science (2015): 1-28.](http://www.tandfonline.com/doi/abs/10.1080/13658816.2015.1092151?journalCode=tgis20)

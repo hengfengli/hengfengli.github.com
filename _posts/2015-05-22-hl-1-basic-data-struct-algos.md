@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "Basic Data Structures and Algorithms"
-categories: [programming]
-tags: [algorithm]
+title: "[HL-1] Basic Data Structures and Algorithms"
+categories:
+    - algorithm
+tags:
+    - data structures
+    - algorithm
 published: true
 ---
 

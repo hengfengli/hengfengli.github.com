@@ -3,7 +3,7 @@ layout: post
 title: "My Microsoft onsite interview"
 categories: [interview]
 tags: [interview]
-published: true
+published: false
 ---
 
 Today, I did my first onsite interview, but I didn't get the offer. 

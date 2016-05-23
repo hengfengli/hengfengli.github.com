@@ -35,6 +35,8 @@ a:visited { color: #a0a; }
 
 /*.highlight { font-size: 12px; line-height: 1em; }*/
 
+.post-date-span { float: left; width: 90px; text-align: right; }
+
 /*****************************************************************************/
 /*
 /* Home

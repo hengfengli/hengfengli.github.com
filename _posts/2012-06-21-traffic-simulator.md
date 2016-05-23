@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Traffic Simulator"
-categories: [computer]
-tags: [traffic]
+title: "[SP-1] Traffic Simulator"
+categories: [project]
+tags: [traffic simulator]
 published: true
 ---
 

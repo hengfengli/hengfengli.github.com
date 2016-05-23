@@ -1,8 +1,11 @@
 ---
 layout: post
-title: "Reading Bill Gates's Interview in Programmers At Work"
-categories: [programming]
-tags: [bill gates, programmers at work]
+title: "[RN-0] Reading note for Bill Gates's Interview in Programmers At Work"
+categories: 
+    - reading
+tags: 
+    - bill gates
+    - programmers at work
 published: true
 ---
 
