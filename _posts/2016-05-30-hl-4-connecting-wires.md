@@ -74,6 +74,6 @@ Therefore, if we match $w_0$ to $b_0$, this brings us the least length.
 We can use queue to implement this method. 
 
 However, as we can see from the above examples, another data structure, 
-queue, can also give us the optimal solution. What would be a good 
+stack, can also give us the optimal solution. What would be a good 
 proof for using a stack? 
 
