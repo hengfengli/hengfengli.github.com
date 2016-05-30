@@ -17,9 +17,9 @@ body {
   /* font: 13.34px Helvetica, Arial, sans-serif; */
   /* font-size: small; */
 /*  font-family: STFangSong, Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;*/
-  font-family: Helvetica;
+  font-family: Calibri;
   font-size: 16px;
-  text-align: center;
+  /*text-align: left;*/
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -65,7 +65,7 @@ ul.posts span {
 
 .site {
   font-size: 115%;
-  text-align: justify;
+  /*text-align: justify;*/
   width: 42em;
   margin: 0em auto 2em auto;
   line-height: 1.5em;
@@ -139,7 +139,7 @@ ul.posts span {
 .post pre {
   border: 1px solid #ddd;
   /* background-color: #eef; */
-  background-color: 333;
+  background-color: #333;
   padding: 0 .4em;
 }
 
@@ -168,8 +168,13 @@ ul.posts span {
   background-color: #333;
 }
 
-
 /* Customize */
+
+.post img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 ul {
   margin: 0 0 1em 0;
