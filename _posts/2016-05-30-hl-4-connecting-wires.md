@@ -77,3 +77,13 @@ However, as we can see from the above examples, another data structure,
 stack, can also give us the optimal solution. What would be a good 
 proof for using a stack? 
 
+[This link](http://www.tau.ac.il/~csedu/greedy_trap.pdf) (Section 3) provides
+a good explanation for transforming to a parenthesis-matching problem. 
+This can be done using a stack. 
+
+[This link](http://www.cs.uni.edu/~wallingf/teaching/cs3530/sessions/session25.html)
+is another place that discussed this problem. 
+
+
+
+
