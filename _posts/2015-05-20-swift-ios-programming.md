@@ -52,20 +52,24 @@ e.g., code and spec, for a class.
 
 All following examples come from [2]: 
 
-**A Swift Tour**
+<!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-*   [Simple Values](#sec01)
-*   [Control Flow](#sec02)
-*   [Functions and Closures](#sec03)
-*   [Objects and Classes](#sec04)
-*   [Enumerations and Structures](#sec05)
-*   [Protocols and Extensions](#sec06)
-*   [Generics](#sec07)
+- [A Swift Tour](#a-swift-tour)
+	- [Simple Values](#simple-values)
+	- [Control Flow](#control-flow)
+	- [Functions and Closures](#functions-and-closures)
+	- [Objects and Classes](#objects-and-classes)
+	- [Enumerations and Structures](#enumerations-and-structures)
+	- [Protocols and Extensions](#protocols-and-extensions)
+	- [Generics](#generics)
 
+<!-- /TOC -->
 
-#### <a name="sec01"></a>Simple Values
+#A Swift Tour
 
-{% highlight csharp %}
+## Simple Values
+
+~~~swift
 println("Hello, world!")  // print a line
 
 // variable and constant
@@ -109,13 +113,13 @@ let emptyDictionary = Dictionary<String, Float>()
 let emptyArray = []
 let emptyDictionary = [:]
 
-{% endhighlight %}
+~~~
 
 
 
-#### <a name="sec02"></a>Control Flow
+## Control Flow
 
-{% highlight csharp %}
+~~~swift
 // bracnch selection statement
 // selection: if and switch
 // loop: for-in, for, while, do-while
@@ -201,13 +205,13 @@ for var i = 0; i < 4; ++i {
 }
 println(secondForLoop)
 
-{% endhighlight %}
+~~~
 
 
 
-#### <a name="sec03"></a>Functions and Closures
+## Functions and Closures
 
-{% highlight csharp %}
+~~~swift
 
 // function and closure
 // 'func'
@@ -309,13 +313,13 @@ println(mappedNumbers)
 let sortedNumbers = sorted([1, 5, 3, 12, 2]){ $0 > $1 }
 println(sortedNumbers)
 
-{% endhighlight %}
+~~~
 
 
 
-#### <a name="sec04"></a>Objects and Classes
+## Objects and Classes
 
-{% highlight csharp %}
+~~~swift
 // objects and classes
 class Shape {
     var numberOfSides = 0
@@ -439,15 +443,15 @@ counter.incrementBy(2, numberOfTimes: 7)
 let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
 // if optionalSquare is nil, then sideLength is nil
 let sideLength = optionalSquare?.sideLength
-{% endhighlight %}
+~~~
 
 
 
 
 
-#### <a name="sec05"></a>Enumerations and Structures
+## Enumerations and Structures
 
-{% highlight csharp %}
+~~~swift
 enum Suit {
     case Spades, Hearts, Diamonds, Clubs
     func simpleDescription() -> String {
@@ -499,12 +503,12 @@ case let .Error(error):
     let serverResponse = "Failure... \(error)"
 }
 
-{% endhighlight %}
+~~~
 
 
-#### <a name="sec06"></a>Protocols and Extensions
+## Protocols and Extensions
 
-{% highlight csharp %}
+~~~swift
 protocol ExampleProtocol {
     var simpleDescription: String { get }
     mutating func adjust()
@@ -548,11 +552,11 @@ println(7.simpleDescription)
 let protocolValue: ExampleProtocol = a
 println(protocolValue.simpleDescription)
 // println(protocolValue.anotherProperty)
-{% endhighlight %}
+~~~
 
-#### <a name="sec07"></a>Generics
+## Generics
 
-{% highlight csharp %}
+~~~swift
 func repeat<Item>(item: Item, times: Int) -> [Item] {
     var result = [Item]()
     for i in 0..<times {
@@ -583,4 +587,4 @@ func anyCommonElements <T, U where T: SequenceType, U: SequenceType,
     return false
 }
 anyCommonElements([1,2,3], [3])
-{% endhighlight %}
+~~~
