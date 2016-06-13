@@ -65,7 +65,7 @@ All following examples come from [2]:
 
 <!-- /TOC -->
 
-#A Swift Tour
+# A Swift Tour
 
 ## Simple Values
 
