@@ -40,7 +40,7 @@ For a singly linked-list:
 
 Java version: 
 
-{% highlight java %}
+~~~java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -104,7 +104,7 @@ public class LinkedList<Item>
         return items;
     }
 }
-{% endhighlight %}
+~~~
 
 
 #### <a name="bst"></a>Binary Search Tree
@@ -130,7 +130,7 @@ Average case:
 
 Java version: 
 
-{% highlight java %}
+~~~java
 public class BST<Key extends Comparable<Key>, Value>
 {
     private Node root;
@@ -260,7 +260,7 @@ public class BST<Key extends Comparable<Key>, Value>
         System.out.println(bst.search("H"));
     }
 }
-{% endhighlight %}
+~~~
 
 #### <a name="bs"></a>Binary Search
 
@@ -269,7 +269,7 @@ the  book "Algorithms 4th" by Sedgewick, Wayne.
 
 Java version: 
 
-{% highlight java %}
+~~~java
 import java.util.Arrays;
 
 public class BinarySearch
@@ -319,4 +319,4 @@ public class BinarySearch
         System.out.println(searchRecursive(11, whitelist));
     }
 }
-{% endhighlight %}
+~~~
