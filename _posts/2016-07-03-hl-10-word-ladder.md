@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[HL-10] Word ladder - BFS"
+title: "[HL-10] Word ladder and clone graph - BFS"
 categories: 
     - algorithm
 tags: 
@@ -66,10 +66,8 @@ class Solution(object):
     def ladderLength(self, beginWord, endWord, wordList):
         """
         Take home lesson:
-        
-        BFS: queue
-        DFS: stack or recursive functions
-        
+            BFS: queue
+            DFS: stack or recursive functions
         """
         wordList.add(endWord)
         queue = collections.deque([[beginWord, 1]])
@@ -88,3 +86,81 @@ class Solution(object):
                         queue.append([next_word, length + 1])
         return 0
 ~~~
+
+There is another question "133 Clone Graph" about BFS. 
+
+~~~
+Clone an undirected graph. Each node in the graph contains a label and a 
+list of its neighbors.
+
+
+OJ's undirected graph serialization:
+Nodes are labeled uniquely.
+
+We use # as a separator for each node, and , as a separator for node label
+and each neighbor of the node.
+As an example, consider the serialized graph {0,1,2#1,2#2,2}.
+
+The graph has a total of three nodes, and therefore contains three parts 
+as separated by #.
+
+First node is labeled as 0. Connect node 0 to both nodes 1 and 2.
+Second node is labeled as 1. Connect node 1 to node 2.
+Third node is labeled as 2. Connect node 2 to node 2 (itself), thus forming 
+a self-cycle.
+Visually, the graph looks like the following:
+
+       1
+      / \
+     /   \
+    0 --- 2
+         / \
+         \_/
+~~~
+
+I wrote an incorrect BFS to solve this question. Again, understanding BFS
+doesn't mean that you can code it correctly (I forgot that we have to trace
+visited nodes while traversing). This answer is referenced from [this link](https://discuss.leetcode.com/topic/23945/python-solutions-bfs-dfs-iteratively-dfs-recursively/2). 
+
+~~~python
+import collections
+
+# Definition for a undirected graph node
+class UndirectedGraphNode(object):
+    def __init__(self, x):
+        self.label = x
+        self.neighbors = []
+
+class Solution(object):
+    
+    def cloneGraph(self, node):
+        """
+        :type node: UndirectedGraphNode
+        :rtype: UndirectedGraphNode
+        
+        Correct BFS! 
+        
+        Take home lesson: BFS needs to trace visited nodes!!!
+        """
+        if not node:
+            return node
+        
+        start = UndirectedGraphNode(node.label)
+        dic = {node:start} # a dictionary for recording visited nodes
+        queue = collections.deque([node])
+        
+        while queue:
+            node = queue.popleft()
+            
+            for neighbor in node.neighbors:
+                
+                if neighbor in dic: # visited before, not need to add into queue
+                    dic[node].neighbors.append(dic[neighbor])
+                else:
+                    dic[neighbor] = UndirectedGraphNode(neighbor.label)
+                    dic[node].neighbors.append(dic[neighbor])
+                    queue.append(neighbor)
+                    
+        return start
+~~~
+
