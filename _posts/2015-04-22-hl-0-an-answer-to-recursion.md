@@ -19,10 +19,10 @@ we should stop the search and return an empty list. Also, if the input is a list
 with a single element, we can just return that list because we do not need to 
 reverse it. 
 
-{% highlight python %}
+~~~python
 if len(string_List) == 0 or len(string_List) == 1:
     return 0
-{% endhighlight %}
+~~~
 
 You checking conditions are correct, but you only need one of them, either an 
 empty list or a list with a single element. For your above code, can the 
@@ -30,23 +30,23 @@ program reach the first condition (an empty list)?
 
 the correct code should be the following: 
 
-{% highlight python %}
+~~~python
 if len(string_List) == 0:
 	return []
-{% endhighlight %}
+~~~
 
 or 
 
-{% highlight python %}
+~~~python
 if len(string_List) == 1:
 	return string_List
-{% endhighlight %}
+~~~
 
 2) **Recursive condition.**
 
 Let’s assume that you have a list “l” and a function “reverse": 
 
-{% highlight python %}
+~~~python
 l = [“a”, “b”, “c”, “d”, “e”]
 
 reverse(l) = reverse(l[1:]) + l[0]
@@ -56,18 +56,18 @@ reverse(l[3:]) = reverse(l[4:]) + l[3]
 reverse(l[4:]) = reverse(l[5:]) + l[4]
 # The recursion stops when meeting your stop condition. 
 reverse(l[5:]) = []
-{% endhighlight %}
+~~~
 
 Then, you see when the program puts “reverse(l[5:])” back into previous 
 equation, and so on: 
 
-{% highlight python %}
+~~~python
 reverse(l[4:]) = [] + l[4]
 reverse(l[3:]) = [] + l[4] + l[3]
 reverse(l[2:]) = [] + l[4] + l[3] + l[2]
 reverse(l[1:]) = [] + l[4] + l[3] + l[2] + l[1]
 reverse(l) = [] + l[4] + l[3] + l[2] + l[1] + l[0]
-{% endhighlight %}
+~~~
 
 The above code can be explained that "Reversing a list" equals to “putting the 
 head element to the last position and reversing the remaining elements in that 
@@ -75,7 +75,7 @@ list”.
 
 So the entire code should be: 
 
-{% highlight python %}
+~~~python
 def reverseLines(string_List):
 	# you can use a “print” to check the input for each call 
     # of this function print string_List
@@ -83,7 +83,7 @@ def reverseLines(string_List):
 		return []
 	else:
 		return reverseLines(string_List[1:]) + [string_List[0]]
-{% endhighlight %}
+~~~
 
 Think a bit why we use “… + [string_List[0]]” and why we need to add square 
 brackets to "string_List[0]". Hint: the data type of returning value from the 

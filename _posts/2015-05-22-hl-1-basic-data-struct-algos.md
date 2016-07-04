@@ -12,15 +12,16 @@ published: true
 This table comes from page 47 in the book "Cracking the coding interview 
 (5th ed.)". 
 
-| Data Structures               | Algorithms                     | Concepts                 |
-|:-----------------------------:|:------------------------------:|:------------------------:|
-| [Linked Lists](#linkedlists)  | Breadth First Search           | Bit Manipulation         |
-| [Binary Trees](#bst)          | Depth First Search             | Singleton Design Pattern |
-| Tries                         | [Binary Search](#bs)           | Factory Design Pattern   |
-| Stacks                        | Merge Sort                     | Memory (Stack vs. Heap)  |
-| Queues                        | Quick Sort                     | Recursion                |
-| Vectors/ArrayLists            | [Tree Insert/Find/etc.](#bst)  | Big-O Time               |
-| Hash Tables                   |                                |                          |
+| Data Structures                                              | Algorithms                                                             | Concepts                                                                           |
+|:------------------------------------------------------------:|:----------------------------------------------------------------------:|:----------------------------------------------------------------------------------:|
+| [Linked Lists](#linkedlists)                                 | [Breadth First Search](/algorithm/2016/07/03/hl-10-word-ladder.html)   | Bit Manipulation                                                                   |
+| [Binary Trees](#bst)                                         | Depth First Search                                                     | Singleton Design Pattern                                                           |
+| [Tries](/algorithm/2016/02/24/hl-3-trie.html)                | [Binary Search](#bs)                                                   | Factory Design Pattern                                                             |
+| [Stacks](/algorithm/2016/05/30/hl-4-connecting-wires.html)   | Merge Sort                                                             | Memory (Stack vs. Heap)                                                            |
+| [Queues](/algorithm/2016/05/30/hl-4-connecting-wires.html)   | Quick Sort                                                             | [Recursion](/algorithm/2015/04/22/hl-0-an-answer-to-recursion.html)                |
+| Vectors/ArrayLists                                           | [Tree Insert/Find/etc.](#bst)                                          | Big-O Time                                                                         |
+| Hash Tables                                                  |                                                                        |                                                                                    |
+| [Heaps](/algorithm/2016/06/05/hl-5-heap.html)                |                                                                        |                                                                                    |
 
 
 #### <a name="linkedlists"></a>Linked Lists
