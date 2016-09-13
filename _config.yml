@@ -1,6 +1,6 @@
-name: Hengfeng's Blog
+name: HENGFENG LI
 description: Occasionally write something about myself. 
 url: http://hengfengli.github.io/
 markdown: kramdown
-rouge: true
+highlighter: rouge
 author: Hengfeng Li
