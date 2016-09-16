@@ -7,3 +7,18 @@ layout: default
 <div class="post">
 {{ content }}
 </div>
+
+<div class="page-divider"></div>
+
+<nav class="page-nav">
+  {% if page.previous.url %}
+  <div class="prev float-left">
+    <a href="{{page.previous.url}}">← {{page.previous.title}}</a>
+  </div>
+  {% endif %}
+  {% if page.next.url %}
+  <div class="next float-right text-align-right">
+    <a href="{{page.next.url}}">{{page.next.title}} →</a>
+   </div>
+  {% endif %}
+</nav>

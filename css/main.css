@@ -271,3 +271,26 @@ blockquote p {
 .float-right {
     float: right;
 }
+
+.page-nav {
+    display: block;
+    width: 100%;
+    padding: 17px 0;
+}
+
+.page-nav .prev {
+    width: 50%;
+    /*background: lightblue;*/
+}
+
+.page-nav .next {
+    width: 50%;
+    /*background: lightgreen;*/
+}
+
+/* styles for floated layout */
+.page-nav:after {
+	content: '';
+	display: table;
+	clear: both;
+}
