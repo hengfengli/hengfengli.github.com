@@ -288,9 +288,13 @@ blockquote p {
     /*background: lightgreen;*/
 }
 
-/* styles for floated layout */
-.page-nav:after {
-	content: '';
-	display: table;
-	clear: both;
+.clearfix {
+    overflow: auto;
 }
+
+/* styles for floated layout */
+/*.page-nav:after {
+    content: '';
+    display: table;
+    clear: both;
+}*/
