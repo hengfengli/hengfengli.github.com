@@ -10,7 +10,7 @@ SP means a Side Project.
 
 I saw a cool calendar in Brian Kernighan's course website [cos333](http://www.cs.princeton.edu/courses/archive/spring14/cos333/). So I made one to remind me of important conference deadlines. It can automatically attach events to the calendar with assigned colors. I've put my code on my [github](https://github.com/HengfengLi/text-calendar-generator). Have fun!
 
-<blockquote><pre class="normal">
+<pre class="normal">
 	 Su Mo Tu We Th Fr Sa
 Jan	              1  2  3
 	  4  5  6  7  8  9 10
@@ -73,4 +73,4 @@ Dec	        1  2  3  4  5
 	 13 14 15 16 17 18 19
 	 20 21 22 23 24 25 26
 	 27 28 29 30 31      
-</pre></blockquote>
+</pre>
