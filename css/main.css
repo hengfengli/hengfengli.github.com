@@ -233,6 +233,14 @@ table tr:nth-child(2n) {
   background-color: #f8f8f8;
 }
 
+blockquote {
+    margin: 0;
+    margin-bottom: .85em;
+    padding: 0 15px;
+    color: #858585;
+    border-left: 4px solid #e5e5e5;
+}
+
 /*blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
