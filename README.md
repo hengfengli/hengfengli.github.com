@@ -1,8 +1,18 @@
 # Personal Homepage
 
-I use the Jekyll-Bootstrap to establish my own blog.
+I use the Jekyll to establish my own blog.
+
+## Override the layout
+
+Check the original theme's file structure: 
+
+~~~bash
+open (bundle show minima)
+~~~
 
 ## Version
+
+2.0 - updated with new jekyll version 3.4.2 on March 12, 2017
 
 1.1 - use pure jekyll template on Sep 22, 2013
 

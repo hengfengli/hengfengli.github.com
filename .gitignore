@@ -1,4 +1,9 @@
 _site
+.sass-cache
+.jekyll-metadata
+
 Thumbs.db
 .DS_Store
 .swp
+
+backup/*
