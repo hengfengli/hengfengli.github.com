@@ -4,9 +4,7 @@ title: Reading
 permalink: /reading/
 ---
 
-### Reading List
-
-## Data structure & algorithms
+# Data structure & algorithms
 
 *   Introduction to Algorithms by Charles E. Leiserson, Clifford Stein, Ronald Rivest, and Thomas H. Cormen
 *   The Algorithm Design Manual by Steven Skiena
@@ -14,7 +12,7 @@ permalink: /reading/
 *   Introduction to the Design & Analysis of Algorithms by Anany Levitin
 *   Data Structures and Algorithm Analysis in C by Mark Allen Weiss
 
-## Programming language
+# Programming language
 
 *   Effective Python: 59 Specific Ways to Write Better Python by Brett Slatkin
 *   A Byte of Python by Swaroop C H
@@ -22,19 +20,19 @@ permalink: /reading/
 *   Thinking in Java 4th Book by Bruce Eckel
 *   The C Programming Language 2nd Edition by Brian W. Kernighan, Dennis M. Ritchie
 
-## Writing code
+# Writing code
 
 *   Structure and Interpretation of Computer Programs by Gerald Jay Sussman and Hal Abelson
 *   Programmers At Work by Susan Lammers (Bill Gates's Chapter)
 *   Writing Solid Code by Steve Maguire
 *   Programming Pearls by Jon Bentley
 
-## System
+# System
 
 *   Distributed Systems: Concepts and Design by George Coulouris, Jean Dollimore, and Tim Kindberg
 *   Distributed Algorithms An Intuitive Approach by Wan Fokkink
 
-## English writing
+# English writing
 
 *   The Book on Writing by Paula Larocque
 
