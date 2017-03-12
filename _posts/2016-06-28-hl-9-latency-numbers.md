@@ -47,4 +47,4 @@ Note: 'us' means microsecond.
 There is a visualization in [this link](http://i.imgur.com/k0t1e.png). 
 I changed a bit: 
 
-![](/img/hl-9-latency-numbers.png)
+![](/assets/img/hl-9-latency-numbers.png)

@@ -252,4 +252,4 @@ def move(self, x, y, id):
 
 The whole procedure is as follows: 
 
-![](/img/hl-6-tic-tac-toe.png)
+![](/assets/img/hl-6-tic-tac-toe.png)

@@ -17,7 +17,7 @@ You can find the problem description from
 * You want to connect each white dot with some one black dot, with a minimum total length of “wire”
 * Example: 
 
-![](/img/hl-4-connecting-wires.png)
+![](/assets/img/hl-4-connecting-wires.png)
 
 * How can we design a greedy algorithm for doing this? 
 * Does the algorithm guarantee an optimal solution? 
@@ -42,7 +42,7 @@ There are three possible positions for $w_j$:
 
 * If $w_j < b_0, b_i$, 
 
-![](/img/hl-4-case-1.png)
+![](/assets/img/hl-4-case-1.png)
 
 $$TL_1 = L(w_0, b_i) + L(w_j, b_0) = b_i - w_0 + | w_j - b_0 | = b_i - w_0 + b_0 - w_j$$
 
@@ -52,7 +52,7 @@ $$TL_1 - TL_2 = 0$$
 
 * If $b_0 < w_j < b_i$, 
 
-![](/img/hl-4-case-2.png)
+![](/assets/img/hl-4-case-2.png)
 
 $$TL_1 = b_i - w_0 + w_j - b_0$$
 
@@ -62,7 +62,7 @@ $$TL_1 - TL_2 = 2 (w_j - b_0) > 0 $$
 
 * If $b_0, b_i < w_j$, 
 
-![](/img/hl-4-case-3.png)
+![](/assets/img/hl-4-case-3.png)
 
 $$TL_1 = b_i - w_0 + w_j - b_0$$
 
