@@ -67,6 +67,8 @@ The time to know these info can happen in the future. When we know that the prom
 
 Note: Remember that `.then()` is async. Don't expect it to execute in a sync way. 
 
+I believe [LarsH's answer from Stackoverflow](http://stackoverflow.com/questions/31324110/why-does-the-promise-constructor-require-a-function-that-calls-resolve-when-co) answers my question well. 
+
 # References
 
 * [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise)
@@ -74,3 +76,5 @@ Note: Remember that `.then()` is async. Don't expect it to execute in a sync way
 * [https://scotch.io/tutorials/javascript-promises-for-dummies](https://scotch.io/tutorials/javascript-promises-for-dummies)
 
 * [https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261)
+
+* [http://stackoverflow.com/questions/31324110/why-does-the-promise-constructor-require-a-function-that-calls-resolve-when-co](http://stackoverflow.com/questions/31324110/why-does-the-promise-constructor-require-a-function-that-calls-resolve-when-co)
