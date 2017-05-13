@@ -61,7 +61,7 @@ From above two examples, we can see that `resolve('response!')` will be executed
 
 Inside the executor, the call of `resolve` tells the `Promise` object that this promise has been resolved. 
 
-At the declaring time, the executor doesn't know the details of `resolve`, so its goals are to figure out can this promise be resolved or rejected? What arguments should be passed to the `resolve` function? 
+At the declaring time, the executor doesn't know the details of `resolve`, so its goals are to figure out can this promise be resolved? What arguments should be passed to the `resolve` function? 
 
 The time to know these info can happen in the future. When we know that the promise is resolved (`resolve` is called), the function in `.then()` will be executed. 
 
