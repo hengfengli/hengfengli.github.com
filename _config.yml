@@ -33,3 +33,4 @@ exclude:
   - backup
   - Gemfile
   - Gemfile.lock
+timezone: Australia/Melbourne
