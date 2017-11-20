@@ -15,31 +15,7 @@ I recently write some unit tests by using `unittest.mock` module to mock objects
 
 # Mock a method
 
-```python
-# main.py
-import requests
-
-def get_page():
-    r = requests.get('http://www.google.com')
-    return r
-
-# test.py
-from main import get_page
-# solution 1
-def mock_get(*args):
-    return 'test page'
-
-@patch('requests.get', mock_get)
-def test_get_page():
-    assert get_page() == 'test page'
-
-# solution 2
-@patch('requests.get')
-def test_get_page(mock_get):
-    mock_get.return_value = 'test page'
-    assert get_page() == 'test page'
-
-```
+<script src="https://gist.github.com/HengfengLi/69594dfb91db4a1d793a299e2f659818.js"></script>
 
 Solution 1 is easy to understand, which uses a method to replace `requests.get`. 
 
@@ -49,24 +25,7 @@ Solution 2 generates an instance of MagicMock (default), which has an attribute 
 
 However, when the return value is an instance of a class, which has some attributes. How should we mock it? 
 
-```python
-# main.py
-import requests
-
-def get_status_code():
-    r = requests.get('http://www.google.com')
-    return r.status_code
-
-# test.py
-from unittest.mock import patch
-from main import get_status_code
-
-@patch('requests.get')
-def test_get_table_status(mock_get):
-    instance = mock_get.return_value
-    instance.status_code = 404
-    assert get_status_code() == 404
-```
+<script src="https://gist.github.com/HengfengLi/b2590d1c9754361ce438e20322b2de18.js"></script>
 
 In doing so, we can mock the attribute of an instance. 
 
@@ -74,44 +33,9 @@ In doing so, we can mock the attribute of an instance.
 
 A more complex case would be as follows: 
 
-```python
-# my_aws.py
-def resource():
-    return Resource()
-
-
-class Resource:
-    def Table(self):
-        return Table()
-
-
-class Table:
-    def __init__(self):
-        self.table_status = 'hello'
-
-# main.py
-import my_aws
-
-def get_table_status():
-    r = my_aws.resource()
-    table = r.Table()
-    return table.table_status
-
-# test.py
-from unittest.mock import patch
-from main import get_table_status
-
-@patch('my_aws.resource')
-def test_get_status_code(mock_resource_factory):
-    mock_resource = mock_resource_factory.return_value
-    mock_table = mock_resource.Table.return_value
-    mock_table.table_status = 'world'
-
-    assert get_table_status() == 'world'
-
-```
+<script src="https://gist.github.com/HengfengLi/38f2d41c82d9cb03e3b772032463fa78.js"></script>
 
 As you can see, `resource()` generates a `Resource` instance and `Resource.Table()` creates a `Table` instance. So if we would like 
 to mock the `Table` instance, we need to mock the `return_value` twice. 
 
-The `unittest.mock` has more features to explore, but so far the above three patching solutions can make my writing of a unit test more easy. 
+The `unittest.mock` has more features to explore, but so far the above three patching solutions can make my writing of a unit test much easier. 
