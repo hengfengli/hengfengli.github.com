@@ -7,7 +7,7 @@ permalink: /reading/
 ## Books that I read in 2018
 
 1. Designing Data-Intensive Applications by Martin Kleppmann
-  * My comment: I think this is probably the best book that I read in 2017. It covers a lot of theoretical details in distributed systems. If you read this book first, then it saves a lot of efforts when you study techniques, such as distributed storage and consensus algorithms. Also, this book gives you a better understanding about why these frameworks are doing this and what problems they are trying to solve. Some parts are not easy to read and understand for me. But it is worth reading if you would like to dive into the world of distributed systems. 
+  * My comment: I think this is probably the best book that I read in 2017 (I started reading it since the end of 2017). It covers a lot of theoretical details in distributed systems. If you read this book first, then it saves a lot of efforts when you study techniques, such as distributed storage and consensus algorithms. Also, this book gives you a better understanding about why these frameworks are doing this and what problems they are trying to solve. Some parts are not easy to read and understand for me. But it is worth reading if you would like to dive into the world of distributed systems. 
 2. Big Data: Principles and best practices of scalable realtime data systems by Nathan Marz (still reading)
 
 ## Books that I have read before and highly recommend: 
