@@ -2,12 +2,10 @@
 
 I use the Jekyll to establish my own blog.
 
-## Override the layout
-
-Check the original theme's file structure: 
+## Serve the website locally
 
 ~~~bash
-open (bundle show minima)
+bundle exec jekyll serve
 ~~~
 
 ## Version

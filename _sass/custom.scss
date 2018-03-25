@@ -18,3 +18,126 @@
   display: inline-block;
   font-size: 17px;
 }
+
+body {
+  // padding-top: 3px; /* 40px to make the container go all the way to the bottom of the topbar */
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; */
+/*  font-family: 'Courier';*/
+/*  font-family: "Courier New";*/
+  font-family: "Verdana";
+  /*font-family: 'Roboto', sans-serif;*/
+  font-size: 14px;
+}
+
+
+.container {
+	margin: auto;
+  width: 1000px; /* downsize our container to make the content feel a bit tighter and more cohesive. NOTE: this removes two full columns from the grid, meaning you only go to 14 columns and not 16. */
+}
+
+.container h3 {
+  font-weight: bold;
+}
+
+.nav {
+	text-align: left;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #0069d6;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #1193F6;
+	border-bottom: 2px solid #E1EAFE;
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px 100px;
+}
+
+#myphoto {
+	width: 200px;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  border-radius: 200px;
+}
+
+#statement {
+/*  height: 430px;*/
+    overflow: auto;
+}
+
+#left {
+	float: left;
+  width: 500px;
+}
+
+#right {
+  float: left;
+  margin-top: 50px;
+  margin-left: 75px;
+}
+
+
+/*#right_description {
+  font-size: 20px;
+}*/
+
+.nav .active {
+	font-weight: bold;
+}
+
+#window {
+	width: 300px;
+	float: right;
+	display:inline-block;
+}
+
+#grass {
+	width: 800px;
+}
+
+.bottom {
+    margin: auto;
+    width: 1000px;
+}
+
+.pretty {
+    font-family: "Verdana";
+}
+
+.work-exp {
+    overflow: auto;
+    padding-bottom: 10px;
+}
+
+.work-icon, .edu-icon {
+    width: 5%;
+    float: left;
+}
+
+.work-item, .edu-item {
+    width: 90%;
+    float: left;
+}
+
+.work-venue, .work-title, .edu-title {
+    font-weight: bold;
+}
+
+.work-research {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.edu {
+    overflow: auto;
+    padding-bottom: 10px;
+}
