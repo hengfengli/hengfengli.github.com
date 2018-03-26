@@ -16,7 +16,7 @@
 
 .post-link {
   display: inline-block;
-  font-size: 17px;
+  font-size: 14px;
 }
 
 body {
@@ -51,9 +51,7 @@ a {
 }
 
 a:hover {
-	text-decoration: none;
 	color: #1193F6;
-	border-bottom: 2px solid #E1EAFE;
 }
 
 /* The white background content wrapper */
@@ -84,11 +82,6 @@ a:hover {
   margin-top: 50px;
   margin-left: 75px;
 }
-
-
-/*#right_description {
-  font-size: 20px;
-}*/
 
 .nav .active {
 	font-weight: bold;

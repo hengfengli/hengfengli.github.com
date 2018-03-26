@@ -32,7 +32,7 @@ layout: home
           Github: <a href="https://github.com/HengfengLi">github.com/HengfengLi</a>
   	    </p>
         <p>
-          A pdf version of my CV can be downloaded <a href="https://people.eng.unimelb.edu.au/henli/docs/hengfengli-cv-no-mobile.pdf">here.</a>
+          A pdf version of my CV can be downloaded <a href="/assets/docs/hengfengli-cv-no-mobile.pdf">here.</a>
         </p>
       </div>
 
@@ -78,19 +78,17 @@ layout: home
       <ul>
         <li>
           <b>Li, Hengfeng</b>, Lars Kulik, and Kotagiri Ramamohanarao. “Automatic Generation and Validation of Road Maps From GPS Trajectory Data Sets.” Submitted to the 25th ACM International Conference on Information and Knowledge Management (<b>CIKM 2016</b>)
-          (pp. 1523-1532). ACM. [
-          <a href="https://people.eng.unimelb.edu.au/henli/docs/cikm16.pdf">PDF</a>]
+          (pp. 1523-1532). ACM. [<a href="https://people.eng.unimelb.edu.au/henli/docs/cikm16.pdf">PDF</a>]
         </li>
         <li>
-          <b>Li, Hengfeng</b>, Lars Kulik, and Kotagiri Ramamohanarao. “Robust inferences of travel paths from GPS trajectories.” International Journal of Geographical Information Science (<b>IJGIS</b>) 29, no. 12 (2015): 2194-2222. [
-          <a href="https://people.eng.unimelb.edu.au/henli/docs/ijgis15-submitted.pdf">PDF</a>] [
-          <a href="http://people.eng.unimelb.edu.au/henli/projects/robust-inferences-of-travel-paths/">Code</a>]
+          <b>Li, Hengfeng</b>, Lars Kulik, and Kotagiri Ramamohanarao. “Robust inferences of travel paths from GPS trajectories.” International Journal of Geographical Information Science (<b>IJGIS</b>) 29, no. 12 (2015): 2194-2222. [<a href="https://people.eng.unimelb.edu.au/henli/docs/ijgis15-submitted.pdf">PDF</a>]
+          [<a href="http://people.eng.unimelb.edu.au/henli/projects/robust-inferences-of-travel-paths/">Code</a>]
         </li>
         <li>
           <b>Li, Hengfeng</b>, Lars Kulik, and Kotagiri Ramamohanarao. “Spatio-temporal trajectory simplification for inferring travel paths.” In Proceedings of the 22nd ACM SIGSPATIAL International Conference on Advances in Geographic Information Systems (
-          <b>SIGSPATIAL 2014</b>), pp. 63-72. ACM, 2014. (Acceptance rate: 21.2%) [
-          <a href="https://people.eng.unimelb.edu.au/henli/docs/sigspatial14-camera-ready.pdf">PDF</a>] [
-          <a href="http://people.eng.unimelb.edu.au/henli/projects/map-matching/">Data</a>]
+          <b>SIGSPATIAL 2014</b>), pp. 63-72. ACM, 2014. (Acceptance rate: 21.2%)
+          [<a href="https://people.eng.unimelb.edu.au/henli/docs/sigspatial14-camera-ready.pdf">PDF</a>]
+          [<a href="http://people.eng.unimelb.edu.au/henli/projects/map-matching/">Data</a>]
         </li>
       </ul>
       <p></p>
