@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "[HL-6] Tic-Tac Toe Problem"
-categories: 
+title: "[HL-13] Tic-Tac Toe Problem"
+categories:
     - algorithm
-tags: 
+tags:
     - Tic-tac-toe
 published: true
 ---
@@ -17,23 +17,23 @@ published: true
 
 <!-- /TOC -->
 
-# What is the Tic-tac-toe problem? 
+# What is the Tic-tac-toe problem?
 
-**Leetcode 348.** Design a Tic-tac-toe game that is played between two 
-players on a n x n grid. 
+**Leetcode 348.** Design a Tic-tac-toe game that is played between two
+players on a n x n grid.
 
 You may assume the following rules:
 
 * A move is guaranteed to be valid and is placed on an empty block.
 * Once a winning condition is reached, no more moves is allowed.
-* A player who succeeds in placing n of their marks in a horizontal, 
+* A player who succeeds in placing n of their marks in a horizontal,
 vertical, or diagonal row wins the game.
 
 Example:
 
 ~~~ java
-Given n = 3, assume that player 1 is "X" and player 2 is "O" in the 
-board. 
+Given n = 3, assume that player 1 is "X" and player 2 is "O" in the
+board.
 
 TicTacToe toe = new TicTacToe(3);
 
@@ -79,14 +79,14 @@ Follow up:
 
 Hint:
 
-* Could you trade extra space such that move() operation can be done 
+* Could you trade extra space such that move() operation can be done
 in O(1)?
-* You need two arrays: int rows[n], int cols[n], plus two variables: 
-diagonal, anti_diagonal. 
+* You need two arrays: int rows[n], int cols[n], plus two variables:
+diagonal, anti_diagonal.
 
 # Define the game framework
 
-First, we describe the game's APIs as follows: 
+First, we describe the game's APIs as follows:
 
 ~~~python
 class TicTacToe
@@ -96,18 +96,18 @@ int   move(x, y, id)            a player id makes a move at (x,y)
 -----------------------------------------------------------------
 ~~~
 
-Next, we write the game framework in Python: 
+Next, we write the game framework in Python:
 
 ~~~python
 class TicTacToe:
     def __init__(self, n):
         self.board = [[None for j in range(n)] for i in range(n)]
-    
+
     def move(self, x, y, id):
         pass
 ~~~
 
-Then, write the test cases: 
+Then, write the test cases:
 
 ~~~python
 toe = TicTacToe(3)
@@ -140,14 +140,14 @@ The simplest solution is to count the number of cells for each player
 on every row and column, plus diagonal and anti-diagonal. If it is
 empty, we do nothing. If the cell is occupied by the first player,
 we increase 1.  Otherwise, for the second player, we decrease 1.
-Once we find a count that equals to n, there is a winner. 
+Once we find a count that equals to n, there is a winner.
 
 ~~~python
 class TicTacToe:
     def __init__(self, n):
         self.n = n
         self.board = [[None for j in range(n)] for i in range(n)]
-    
+
     def val(self, row, col):
         v = self.board[row][col]
         if not v:
@@ -156,7 +156,7 @@ class TicTacToe:
             return 1
         else:
             return -1
-    
+
     def win(self):
         """
         Check every row and column, diagonal, anti-diagonal
@@ -165,42 +165,42 @@ class TicTacToe:
         cols = [0 for i in range(self.n)]
         for row in xrange(self.n):
             for col in xrange(self.n):
-                
+
                 rows[row] += self.val(row, col)
                 cols[col] += self.val(row, col)
-                
+
                 if abs(rows[row]) == self.n or abs(cols[col]) == self.n:
                     # print "row and col check!"
                     return True
-        
+
         diagonal = 0
         anti_diagonal = 0
         for row, col in zip(range(self.n), range(self.n)):
             diagonal += self.val(row, col)
             anti_diagonal += self.val(row, self.n-col-1)
-        
+
         # print "diagonal and anti-diagonal!", diagonal, anti_diagonal
         return abs(diagonal) == self.n or abs(anti_diagonal) == self.n
-        
+
     def move(self, x, y, id):
         if self.board[x][y] != None:
             raise Exception("The cell is not empty!")
-        
+
         self.board[x][y] = id
-        
+
         # print self.board
         # print "win?", self.win()
-        
+
         return 1 if self.win() else 0
 ~~~
 
 
 # An improved O(n) solution
 
-We can create sentinel for each row, column, diagonal, and anti_diagonal. 
-When we add a new move, we update these sentinels. For any new move, 
+We can create sentinel for each row, column, diagonal, and anti_diagonal.
+When we add a new move, we update these sentinels. For any new move,
 we just need to check the max value of these sentinels. If we scan
-all sentinels, the time complexity is O(n). 
+all sentinels, the time complexity is O(n).
 
 ~~~python
 class TicTacToe:
@@ -211,34 +211,34 @@ class TicTacToe:
         self.cols = [0 for i in range(self.n)]
         self.diagonal = 0
         self.anti_diagonal = 0
-    
+
     def move(self, x, y, id):
         if self.board[x][y] != None:
             raise Exception("The cell is not empty!")
-        
+
         self.board[x][y] = id
-        
+
         inc = 1 if id == 1 else -1
-        
+
         self.rows[x] += inc
         self.cols[y] += inc
-        if x == y: 
+        if x == y:
             self.diagonal += inc
         if x == self.n-1-y:
             self.anti_diagonal += inc
-        
+
         max_row = max(map(abs, self.rows))
         max_col = max(map(abs, self.cols))
-        
+
         max_count = max([max_row, max_col, abs(self.diagonal), abs(self.anti_diagonal)])
-        
+
         return 1 if max_count == self.n else 0
 ~~~
 
 # An ultimately improved O(1) solution
 
 Why do we need to scan the sentinels? We only need to check updated
-sentinels when adding a new move. This reduces the time to O(1). 
+sentinels when adding a new move. This reduces the time to O(1).
 
 ~~~python
 def move(self, x, y, id):
@@ -250,6 +250,6 @@ def move(self, x, y, id):
     return 1 if max_count == self.n else 0
 ~~~
 
-The whole procedure is as follows: 
+The whole procedure is as follows:
 
 ![](/assets/img/hl-6-tic-tac-toe.png)

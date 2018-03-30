@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "[SP-4] SICP solutions"
+title:  "[HL-3] SICP solutions"
 date:   2014-11-06 11:32:00
-categories: 
+categories:
     - project
 tags:
     - SICP

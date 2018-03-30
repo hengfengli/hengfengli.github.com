@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "[SP-3] OSM-parser, KNN, Beijing Traffic Visualization"
-categories: 
+title:  "[HL-2] OSM-parser, KNN, Beijing Traffic Visualization"
+categories:
     - project
 tags:
     - visualization

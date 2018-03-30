@@ -1,56 +1,56 @@
 ---
 layout: post
-title: "[SP-6] Learning Swift"
-categories: 
+title: "[HL-6] Learning Swift"
+categories:
     - project
-tags: 
+tags:
     - swift
 published: true
 ---
 
-I want to learn a bit about Swift iOS programming in case I 
-need to handle with the mobile computing. It is always good 
-to have the ability to make some mobile apps. 
+I want to learn a bit about Swift iOS programming in case I
+need to handle with the mobile computing. It is always good
+to have the ability to make some mobile apps.
 
-I will record some links of learning resources and maybe I 
-will write down some comments. 
+I will record some links of learning resources and maybe I
+will write down some comments.
 
 
 [1]   Bret Victor - "[Inventing on Principle](https://vimeo.com/36579366)"
 
-**My Comments:** You can see the design principle of Swift 
-from this talk. Wow! The binary search example surprises me 
-a lot, which is an excellent demo. 
+**My Comments:** You can see the design principle of Swift
+from this talk. Wow! The binary search example surprises me
+a lot, which is an excellent demo.
 
 [2]   A Swift Tour in "The Swift Programming Language"
 
 **My Comments:** For me, the whole idea is similar to iPython
 for interactive programming, which is very popular to embed
 code into an article. But Swift's playground is a real-time
-interpreter. A drawback of this is that there is a small 
-delay to wait for showing the result. And Swift combines 
-a lot features from different programming languages. You 
-may feel quite familiar about its syntax and grammar. 
+interpreter. A drawback of this is that there is a small
+delay to wait for showing the result. And Swift combines
+a lot features from different programming languages. You
+may feel quite familiar about its syntax and grammar.
 
 [3]   [Stanford - Developing iOS 8 Apps with Swift [2015]](https://www.youtube.com/playlist?list=PLy7oRd3ashWodnpf8rjfYEkTgwbOEsKfU)
 
-**My Comments:** I found this course in Itunes U and 
-this is what I need. 
+**My Comments:** I found this course in Itunes U and
+this is what I need.
 
 [4]   [A tutorial for developing a Tetris game](https://www.bloc.io/tutorials/swiftris-build-your-first-ios-game-with-swift#!/chapters/675)
 
 **My Comments:** A very cool game. This tutorial is great, which not only
-teaches you how to design this game, but also links related knowledge of 
-Swift. 
+teaches you how to design this game, but also links related knowledge of
+Swift.
 
 [5]   [Swift Education](http://swifteducation.github.io/)
 
-**My Comments:** It is recommended by the official website. It aims to 
+**My Comments:** It is recommended by the official website. It aims to
 guide teachers to prepare for their classes in Swift app development.
 The website has many cool projects that contain all necessary stuff,
-e.g., code and spec, for a class. 
+e.g., code and spec, for a class.
 
-All following examples come from [2]: 
+All following examples come from [2]:
 
 <!-- TOC depthFrom:1 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -85,7 +85,7 @@ let explicitDouble: Double = 70
 // no implicitly casting, needs explicitly casting
 let label = "The width is "
 let width = 94
-// if remove '+', you will get an error that binary 
+// if remove '+', you will get an error that binary
 // operator cannot be applied to 'string' and 'int'
 let labelWidth = label + String(width)
 
@@ -136,7 +136,7 @@ println(teamScore)
 
 
 // nullable variable
-// combine 'if' and 'let', it is convinient to hanldle nullable variable. 
+// combine 'if' and 'let', it is convinient to hanldle nullable variable.
 var optionalString: String? = "Hello"
 optionalString == nil
 
@@ -227,7 +227,7 @@ func calculateStatistics(scores: [Int]) -> (min: Int,
     var min = scores[0]
     var max = scores[0]
     var sum = 0
-    
+
     for score in scores {
         if score > max {
             max = score
@@ -236,7 +236,7 @@ func calculateStatistics(scores: [Int]) -> (min: Int,
         }
         sum += score
     }
-            
+
     return (min, max, sum)
 }
 let statistics = calculateStatistics([5, 3, 100, 3, 9])
@@ -335,17 +335,17 @@ var shapeDescription = shape.simpleDescription()
 class NamedShape {
     var numberOfSides: Int = 0
     var name: String
-    
+
     init(name: String) {
         self.name = name
     }
-    
-    // use 'deinit' to create a deinitializer if you 
+
+    // use 'deinit' to create a deinitializer if you
     // need to perform some cleanup before the object
     // is deallocated.
-    
+
     // 'override'
-    
+
     func simpleDescription() -> String {
         return "A shape with \(numberOfSides) sides."
     }
@@ -354,18 +354,18 @@ class NamedShape {
 
 class Square: NamedShape {
     var sideLength: Double
-    
-    
+
+
     init(sideLength: Double, name: String) {
         self.sideLength = sideLength
         super.init(name: name)
         numberOfSides = 4
     }
-    
+
     func area() -> Double {
         return sideLength * sideLength
     }
-    
+
     override func simpleDescription() -> String {
         return "A square with sides of length \(sideLength)."
     }
@@ -378,13 +378,13 @@ test.simpleDescription()
 
 class EquilateralTriangle: NamedShape {
     var sideLength: Double = 0.0
-    
+
     init(sideLength: Double, name: String) {
         self.sideLength = sideLength
         super.init(name: name)
         numberOfSides = 3
     }
-    
+
     var perimeter: Double {
         get {
             return 3.0 * sideLength
@@ -393,7 +393,7 @@ class EquilateralTriangle: NamedShape {
             sideLength = newValue / 3.0
         }
     }
-    
+
     override func simpleDescription() -> String {
         return "An equilateral triangle with sides of length \(sideLength)."
     }
@@ -412,13 +412,13 @@ class TriangleAndSquare {
             square.sideLength = newValue.sideLength
         }
     }
-    
+
     var square: Square {
         willSet {
             triangle.sideLength = newValue.sideLength
         }
     }
-    
+
     init(size: Double, name: String) {
         square = Square(sideLength: size, name: name)
         triangle = EquilateralTriangle(sideLength: size, name: name)
@@ -471,11 +471,11 @@ enum Suit {
 let hearts = Suit.Hearts
 let heartsDescription = hearts.simpleDescription()
 
-// why structure? 
+// why structure?
 // One of the most important differences between structures
 // and classes is that structures are always copied when they
 // are passed around in your code, but classes are passed by
-// reference. 
+// reference.
 struct Card {
     var rank: Rank
     var suit: Suit
@@ -542,7 +542,7 @@ extension Int: ExampleProtocol {
     var simpleDescription: String {
         return "The number \(self)"
     }
-    
+
     mutating func adjust() {
         self += 42
     }
