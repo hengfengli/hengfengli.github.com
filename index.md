@@ -19,7 +19,7 @@ layout: home
         <p>
         My current interests are:
           <ul>
-            <li>Distributed Systems;</li>
+            <li>Distributed systems;</li>
             <li>Real-time stream data processing;</li>
             <li>Docker, kubernetes, and container related techniques;</li>
             <li>Scalable and maintainable data systems;</li>
