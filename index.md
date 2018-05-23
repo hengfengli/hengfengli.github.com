@@ -104,20 +104,20 @@ layout: home
           <div class="work-duration">Oct 2016 — Present</div>
 
           <p>
-          I mainly work on developing the social media archiving platform, <a href="https://brolly.com.au/">https://brolly.com.au/</a>.
+          I mainly work on developing and maintaining a social media archiving platform, Brolly (<a href="https://brolly.com.au/">https://brolly.com.au/</a>).
           </p>
 
           <div>
             Achievements:
             <ul>
-              <li>Architected, built, and tested the new data capture pipeline based on a central-stream architecture.</li>
+              <li>Architected, built, and tested the new data capture pipeline based on an event-stream architecture with techniques like AWS Kinesis, DynamoDB, Celery, RabbitMQ.</li>
               <li>Implemented new data crawlers for Facebook, Twitter, Instagram, and YouTube.</li>
-              <li>Worked on containerizing the entire app to Docker and AWS ECS for better operation.</li>
-              <li>Worked on the export service to query data from ElasticSearch and generate an offline HTML app.</li>
-              <li>Created and maintained a high-fidelity suite of automated tests, including unit tests and functional tests.</li>
+              <li>Worked on containerizing the monopolistic application into microservices via Docker and AWS ECS.</li>
+              <li>Worked on the export service to query and process data from ElasticSearch and generate an offline HTML app.</li>
+              <li>Created and maintained a suite of automated tests, including unit tests and integration tests.</li>
             </ul>
           </div>
-          <div>Tech Used: Python, Celery, Docker, PHP, Symfony, MySQL, AWS (ECS, Kinesis, Dynamodb, SQS, ElastiCache, Elastic Beanstalk, etc), ElasticSearch, RabbitMQ, JavaScript, Backbone.js, Flask</div>
+          <div>Tech Used: Python, Celery, Docker, PHP, Symfony, MySQL, AWS (ECS, Kinesis, Dynamodb, SQS, ElastiCache, Elastic Beanstalk, CodePipeline, CodeBuild, etc), ElasticSearch, RabbitMQ, JavaScript, Backbone.js, Flask, Jenkins</div>
         </div>
       </div>
 
