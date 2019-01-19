@@ -99,9 +99,30 @@ layout: home
       <div class="work-exp">
         <div class="work-icon"><img src="/assets/img/work-icon.png" alt=""></div>
         <div class="work-item">
+          <div class="work-venue">Redbubble Ltd.</div>
+          <div class="work-title">Software Engineer</div>
+          <div class="work-duration">Sep 2018 — Present</div>
+
+          <div>
+            Responsibilities:
+            <ul>
+              <li>Developing event-based data pipeline with techniques like AWS Kinesis, Firehose, S3, and etc.</li>
+              <li>Building and maintaining ELT processes between database, such as AWS RDS, and data warehouses, such as Redshift and BigQuery.</li>
+              <li>Deploying with Docker and Kubernetes and provisioning infrastructure resources with AWS CloudFormation.</li>
+              <li>Monitoring data flows via CloudWatch metrics and alarms.</li>
+              <li>Developing ELT jobs with AWS Glue (managed Spark service) and querying structured files on S3 via AWS Athena.</li>
+            </ul>
+          </div>
+          <div>Tech Used: Python, Ruby on Rails, Scala, Docker, Kubernetes, MySQL, AWS (Kinesis, CloudWatch, CloudFormation, Athena, Firehose, S3, Glue, Redshift, etc), Jenkins, GCP (Cloud Storage, BigQuery)</div>
+        </div>
+      </div>
+
+      <div class="work-exp">
+        <div class="work-icon"><img src="/assets/img/work-icon.png" alt=""></div>
+        <div class="work-item">
           <div class="work-venue">Ladoo Pty. Ltd.</div>
           <div class="work-title">Software Developer</div>
-          <div class="work-duration">Oct 2016 — Present</div>
+          <div class="work-duration">Oct 2016 — Aug 2018</div>
 
           <p>
           I mainly work on developing and maintaining a social media archiving platform, Brolly (<a href="https://brolly.com.au/">https://brolly.com.au/</a>).
